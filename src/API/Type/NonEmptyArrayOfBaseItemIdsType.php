@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing NonEmptyArrayOfBaseItemIdsType
@@ -24,17 +24,17 @@ class NonEmptyArrayOfBaseItemIdsType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\ItemIdType[]
+     * @var \rklandesverband\ews\API\Type\ItemIdType[]
      */
     protected $itemId = null;
 
     /**
-     * @var \garethp\ews\API\Type\OccurrenceItemIdType[]
+     * @var \rklandesverband\ews\API\Type\OccurrenceItemIdType[]
      */
     protected $occurrenceItemId = null;
 
     /**
-     * @var \garethp\ews\API\Type\RecurringMasterItemIdType[]
+     * @var \rklandesverband\ews\API\Type\RecurringMasterItemIdType[]
      */
     protected $recurringMasterItemId = null;
 }

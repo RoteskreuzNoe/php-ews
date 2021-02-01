@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\Utilities;
+namespace rklandesverband\ews\Utilities;
 
-use garethp\ews\API\Type\BaseFolderIdType;
+use rklandesverband\ews\API\Type\BaseFolderIdType;
 
 function getFolderIds($folderIds)
 {

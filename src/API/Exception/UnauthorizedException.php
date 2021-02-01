@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Exception;
+namespace rklandesverband\ews\API\Exception;
 
-use garethp\ews\API;
+use rklandesverband\ews\API;
 
 class UnauthorizedException extends API\Exception
 {

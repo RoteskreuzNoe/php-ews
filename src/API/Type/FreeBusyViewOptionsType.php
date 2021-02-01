@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing FreeBusyViewOptionsType
@@ -22,7 +22,7 @@ class FreeBusyViewOptionsType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\DurationType
+     * @var \rklandesverband\ews\API\Type\DurationType
      */
     protected $timeWindow = null;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing DeleteAttachmentResponseMessageType
@@ -8,14 +8,14 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: DeleteAttachmentResponseMessageType
  *
- * @method \garethp\ews\API\Type\RootItemIdType getRootItemId()
- * @method DeleteAttachmentResponseMessageType setRootItemId(\garethp\ews\API\Type\RootItemIdType $rootItemId)
+ * @method \rklandesverband\ews\API\Type\RootItemIdType getRootItemId()
+ * @method DeleteAttachmentResponseMessageType setRootItemId(\rklandesverband\ews\API\Type\RootItemIdType $rootItemId)
  */
 class DeleteAttachmentResponseMessageType extends ResponseMessageType
 {
 
     /**
-     * @var \garethp\ews\API\Type\RootItemIdType
+     * @var \rklandesverband\ews\API\Type\RootItemIdType
      */
     protected $rootItemId = null;
 }

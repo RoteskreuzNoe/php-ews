@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
-use garethp\ews\API\Message;
+use rklandesverband\ews\API\Message;
 
 /**
  * Class representing ArrayOfResponseMessagesType
@@ -150,228 +150,228 @@ class ArrayOfResponseMessagesType extends Message
 {
 
     /**
-     * @var \garethp\ews\API\Message\ItemInfoResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ItemInfoResponseMessageType[]
      */
     protected $createItemResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ResponseMessageType[]
      */
     protected $deleteItemResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ItemInfoResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ItemInfoResponseMessageType[]
      */
     protected $getItemResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\UpdateItemResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\UpdateItemResponseMessageType[]
      */
     protected $updateItemResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ResponseMessageType[]
      */
     protected $sendItemResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ResponseMessageType[]
      */
     protected $deleteFolderResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ResponseMessageType[]
      */
     protected $emptyFolderResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\FolderInfoResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\FolderInfoResponseMessageType[]
      */
     protected $createFolderResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\FolderInfoResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\FolderInfoResponseMessageType[]
      */
     protected $getFolderResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\FindFolderResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\FindFolderResponseMessageType[]
      */
     protected $findFolderResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\FolderInfoResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\FolderInfoResponseMessageType[]
      */
     protected $updateFolderResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\FolderInfoResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\FolderInfoResponseMessageType[]
      */
     protected $moveFolderResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\FolderInfoResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\FolderInfoResponseMessageType[]
      */
     protected $copyFolderResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\AttachmentInfoResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\AttachmentInfoResponseMessageType[]
      */
     protected $createAttachmentResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\DeleteAttachmentResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\DeleteAttachmentResponseMessageType[]
      */
     protected $deleteAttachmentResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\AttachmentInfoResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\AttachmentInfoResponseMessageType[]
      */
     protected $getAttachmentResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\UploadItemsResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\UploadItemsResponseMessageType[]
      */
     protected $uploadItemsResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ExportItemsResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ExportItemsResponseMessageType[]
      */
     protected $exportItemsResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\FindItemResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\FindItemResponseMessageType[]
      */
     protected $findItemResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ItemInfoResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ItemInfoResponseMessageType[]
      */
     protected $moveItemResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ItemInfoResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ItemInfoResponseMessageType[]
      */
     protected $copyItemResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ResolveNamesResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ResolveNamesResponseMessageType[]
      */
     protected $resolveNamesResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ExpandDLResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ExpandDLResponseMessageType[]
      */
     protected $expandDLResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\GetServerTimeZonesResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\GetServerTimeZonesResponseMessageType[]
      */
     protected $getServerTimeZonesResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\GetEventsResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\GetEventsResponseMessageType[]
      */
     protected $getEventsResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\GetStreamingEventsResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\GetStreamingEventsResponseMessageType[]
      */
     protected $getStreamingEventsResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\SubscribeResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\SubscribeResponseMessageType[]
      */
     protected $subscribeResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ResponseMessageType[]
      */
     protected $unsubscribeResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\SendNotificationResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\SendNotificationResponseMessageType[]
      */
     protected $sendNotificationResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\SyncFolderHierarchyResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\SyncFolderHierarchyResponseMessageType[]
      */
     protected $syncFolderHierarchyResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\SyncFolderItemsResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\SyncFolderItemsResponseMessageType[]
      */
     protected $syncFolderItemsResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\FolderInfoResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\FolderInfoResponseMessageType[]
      */
     protected $createManagedFolderResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ConvertIdResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ConvertIdResponseMessageType[]
      */
     protected $convertIdResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\GetSharingMetadataResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\GetSharingMetadataResponseMessageType[]
      */
     protected $getSharingMetadataResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\RefreshSharingFolderResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\RefreshSharingFolderResponseMessageType[]
      */
     protected $refreshSharingFolderResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\GetSharingFolderResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\GetSharingFolderResponseMessageType[]
      */
     protected $getSharingFolderResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ResponseMessageType[]
      */
     protected $createUserConfigurationResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ResponseMessageType[]
      */
     protected $deleteUserConfigurationResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\GetUserConfigurationResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\GetUserConfigurationResponseMessageType[]
      */
     protected $getUserConfigurationResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\ResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ResponseMessageType[]
      */
     protected $updateUserConfigurationResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\GetRoomListsResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\GetRoomListsResponseMessageType[]
      */
     protected $getRoomListsResponse = null;
 
     /**
-     * @var \garethp\ews\API\Message\GetRoomsResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\GetRoomsResponseMessageType[]
      */
     protected $getRoomsResponse = null;
 
     /**
-     * @var \garethp\ews\API\Message\ResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\ResponseMessageType[]
      */
     protected $applyConversationActionResponseMessage = null;
 
     /**
      * @var
-     * \garethp\ews\API\Message\FindMailboxStatisticsByKeywordsResponseMessageType[]
+     * \rklandesverband\ews\API\Message\FindMailboxStatisticsByKeywordsResponseMessageType[]
      */
     protected $findMailboxStatisticsByKeywordsResponseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Message\GetPasswordExpirationDateResponseMessageType[]
+     * @var \rklandesverband\ews\API\Message\GetPasswordExpirationDateResponseMessageType[]
      */
     protected $getPasswordExpirationDateResponse = null;
 }

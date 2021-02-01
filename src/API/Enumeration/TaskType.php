@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\TaskType.
+ * Contains \rklandesverband\ews\API\Enumeration\TaskType.
  */
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
 /**
  * Represents the task type.

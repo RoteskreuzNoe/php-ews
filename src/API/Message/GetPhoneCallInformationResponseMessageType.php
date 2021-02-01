@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing GetPhoneCallInformationResponseMessageType
@@ -8,14 +8,14 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: GetPhoneCallInformationResponseMessageType
  *
- * @method \garethp\ews\API\Type\PhoneCallInformationType getPhoneCallInformation()
- * @method GetPhoneCallInformationResponseMessageType setPhoneCallInformation(\garethp\ews\API\Type\PhoneCallInformationType $phoneCallInformation)
+ * @method \rklandesverband\ews\API\Type\PhoneCallInformationType getPhoneCallInformation()
+ * @method GetPhoneCallInformationResponseMessageType setPhoneCallInformation(\rklandesverband\ews\API\Type\PhoneCallInformationType $phoneCallInformation)
  */
 class GetPhoneCallInformationResponseMessageType extends ResponseMessageType
 {
 
     /**
-     * @var \garethp\ews\API\Type\PhoneCallInformationType
+     * @var \rklandesverband\ews\API\Type\PhoneCallInformationType
      */
     protected $phoneCallInformation = null;
 }

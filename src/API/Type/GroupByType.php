@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
 /**
  * Class representing GroupByType
@@ -21,22 +21,22 @@ class GroupByType extends BaseGroupByType
 {
 
     /**
-     * @var \garethp\ews\API\Type\PathToUnindexedFieldType
+     * @var \rklandesverband\ews\API\Type\PathToUnindexedFieldType
      */
     protected $fieldURI = null;
 
     /**
-     * @var \garethp\ews\API\Type\PathToIndexedFieldType
+     * @var \rklandesverband\ews\API\Type\PathToIndexedFieldType
      */
     protected $indexedFieldURI = null;
 
     /**
-     * @var \garethp\ews\API\Type\PathToExtendedFieldType
+     * @var \rklandesverband\ews\API\Type\PathToExtendedFieldType
      */
     protected $extendedFieldURI = null;
 
     /**
-     * @var \garethp\ews\API\Type\AggregateOnType
+     * @var \rklandesverband\ews\API\Type\AggregateOnType
      */
     protected $aggregateOn = null;
 }

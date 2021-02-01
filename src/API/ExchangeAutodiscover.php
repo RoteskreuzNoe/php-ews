@@ -1,10 +1,10 @@
 <?php
-namespace garethp\ews\API;
+namespace rklandesverband\ews\API;
 
-use garethp\ews\API;
-use garethp\ews\API\Exception\AutodiscoverFailed;
-use garethp\HttpPlayback\Client;
-use garethp\HttpPlayback\Factory;
+use rklandesverband\ews\API;
+use rklandesverband\ews\API\Exception\AutodiscoverFailed;
+use rklandesverband\HttpPlayback\Client;
+use rklandesverband\HttpPlayback\Factory;
 
 class ExchangeAutodiscover
 {

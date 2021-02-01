@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing CreateAttachmentType
@@ -8,21 +8,21 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: CreateAttachmentType
  *
- * @method \garethp\ews\API\Type\ItemIdType getParentItemId()
- * @method CreateAttachmentType setParentItemId(\garethp\ews\API\Type\ItemIdType $parentItemId)
- * @method \garethp\ews\API\Type\NonEmptyArrayOfAttachmentsType getAttachments()
- * @method CreateAttachmentType setAttachments(\garethp\ews\API\Type\NonEmptyArrayOfAttachmentsType $attachments)
+ * @method \rklandesverband\ews\API\Type\ItemIdType getParentItemId()
+ * @method CreateAttachmentType setParentItemId(\rklandesverband\ews\API\Type\ItemIdType $parentItemId)
+ * @method \rklandesverband\ews\API\Type\NonEmptyArrayOfAttachmentsType getAttachments()
+ * @method CreateAttachmentType setAttachments(\rklandesverband\ews\API\Type\NonEmptyArrayOfAttachmentsType $attachments)
  */
 class CreateAttachmentType extends BaseRequestType
 {
 
     /**
-     * @var \garethp\ews\API\Type\ItemIdType
+     * @var \rklandesverband\ews\API\Type\ItemIdType
      */
     protected $parentItemId = null;
 
     /**
-     * @var \garethp\ews\API\Type\NonEmptyArrayOfAttachmentsType
+     * @var \rklandesverband\ews\API\Type\NonEmptyArrayOfAttachmentsType
      */
     protected $attachments = null;
 }

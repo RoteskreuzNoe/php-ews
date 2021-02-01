@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing FolderInfoResponseMessageType
@@ -8,14 +8,14 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: FolderInfoResponseMessageType
  *
- * @method \garethp\ews\API\Type\ArrayOfFoldersType getFolders()
- * @method FolderInfoResponseMessageType setFolders(\garethp\ews\API\Type\ArrayOfFoldersType $folders)
+ * @method \rklandesverband\ews\API\Type\ArrayOfFoldersType getFolders()
+ * @method FolderInfoResponseMessageType setFolders(\rklandesverband\ews\API\Type\ArrayOfFoldersType $folders)
  */
 class FolderInfoResponseMessageType extends ResponseMessageType
 {
 
     /**
-     * @var \garethp\ews\API\Type\ArrayOfFoldersType
+     * @var \rklandesverband\ews\API\Type\ArrayOfFoldersType
      */
     protected $folders = null;
 }

@@ -1,14 +1,14 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
 use Countable;
 use ArrayAccess;
-use garethp\ews\API\Enumeration\IndexBasePointType;
-use garethp\ews\API\Message\FindFolderType;
+use rklandesverband\ews\API\Enumeration\IndexBasePointType;
+use rklandesverband\ews\API\Message\FindFolderType;
 use IteratorAggregate;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing FindFolderParentType
@@ -64,7 +64,7 @@ class FindFolderParentType extends Type implements Countable, ArrayAccess, Itera
     protected $lastRequest = null;
 
     /**
-     * @var \garethp\ews\API\Type\ArrayOfFoldersType
+     * @var \rklandesverband\ews\API\Type\ArrayOfFoldersType
      */
     protected $folders = null;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing NonEmptyArrayOfAttachmentsType
@@ -21,12 +21,12 @@ class NonEmptyArrayOfAttachmentsType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\ItemAttachmentType[]
+     * @var \rklandesverband\ews\API\Type\ItemAttachmentType[]
      */
     protected $itemAttachment = null;
 
     /**
-     * @var \garethp\ews\API\Type\FileAttachmentType[]
+     * @var \rklandesverband\ews\API\Type\FileAttachmentType[]
      */
     protected $fileAttachment = null;
 

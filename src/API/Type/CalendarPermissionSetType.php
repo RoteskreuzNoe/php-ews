@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing CalendarPermissionSetType
@@ -21,7 +21,7 @@ class CalendarPermissionSetType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\CalendarPermissionType[]
+     * @var \rklandesverband\ews\API\Type\CalendarPermissionType[]
      */
     protected $calendarPermissions = null;
 

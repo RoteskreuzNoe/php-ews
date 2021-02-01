@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\Scope.
+ * Contains \rklandesverband\ews\API\Enumeration\Scope.
  */
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
 /**
  * Defines the scope of a message tracking report.

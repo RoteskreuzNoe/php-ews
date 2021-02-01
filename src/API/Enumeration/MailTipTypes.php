@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\MailTipTypes.
+ * Contains \rklandesverband\ews\API\Enumeration\MailTipTypes.
  */
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
 /**
  * Defines the types of mail tips requested from the service.

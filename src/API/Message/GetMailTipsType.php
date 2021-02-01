@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing GetMailTipsType
@@ -8,10 +8,10 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: GetMailTipsType
  *
- * @method \garethp\ews\API\Type\EmailAddressType getSendingAs()
- * @method GetMailTipsType setSendingAs(\garethp\ews\API\Type\EmailAddressType $sendingAs)
- * @method GetMailTipsType addRecipients(\garethp\ews\API\Type\EmailAddressType $recipients)
- * @method \garethp\ews\API\Type\EmailAddressType[] getRecipients()
+ * @method \rklandesverband\ews\API\Type\EmailAddressType getSendingAs()
+ * @method GetMailTipsType setSendingAs(\rklandesverband\ews\API\Type\EmailAddressType $sendingAs)
+ * @method GetMailTipsType addRecipients(\rklandesverband\ews\API\Type\EmailAddressType $recipients)
+ * @method \rklandesverband\ews\API\Type\EmailAddressType[] getRecipients()
  * @method GetMailTipsType setRecipients(array $recipients)
  * @method GetMailTipsType addMailTipsRequested(string $mailTipsRequested)
  * @method string[] getMailTipsRequested()
@@ -21,12 +21,12 @@ class GetMailTipsType extends BaseRequestType
 {
 
     /**
-     * @var \garethp\ews\API\Type\EmailAddressType
+     * @var \rklandesverband\ews\API\Type\EmailAddressType
      */
     protected $sendingAs = null;
 
     /**
-     * @var \garethp\ews\API\Type\EmailAddressType[]
+     * @var \rklandesverband\ews\API\Type\EmailAddressType[]
      */
     protected $recipients = null;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing SendNotificationResponseMessageType
@@ -8,14 +8,14 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: SendNotificationResponseMessageType
  *
- * @method \garethp\ews\API\Type\NotificationType getNotification()
- * @method SendNotificationResponseMessageType setNotification(\garethp\ews\API\Type\NotificationType $notification)
+ * @method \rklandesverband\ews\API\Type\NotificationType getNotification()
+ * @method SendNotificationResponseMessageType setNotification(\rklandesverband\ews\API\Type\NotificationType $notification)
  */
 class SendNotificationResponseMessageType extends ResponseMessageType
 {
 
     /**
-     * @var \garethp\ews\API\Type\NotificationType
+     * @var \rklandesverband\ews\API\Type\NotificationType
      */
     protected $notification = null;
 }

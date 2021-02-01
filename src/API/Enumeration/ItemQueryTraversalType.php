@@ -1,12 +1,12 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\ItemQueryTraversalType.
+ * Contains \rklandesverband\ews\API\Enumeration\ItemQueryTraversalType.
  */
 
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
-use garethp\ews\API\Enumeration;
+use rklandesverband\ews\API\Enumeration;
 
 /**
  * Class representing ItemQueryTraversalType

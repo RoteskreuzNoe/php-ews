@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing SyncFolderItemsResponseMessageType
@@ -13,8 +13,8 @@ namespace garethp\ews\API\Message;
  * @method boolean isIncludesLastItemInRange()
  * @method boolean getIncludesLastItemInRange()
  * @method SyncFolderItemsResponseMessageType setIncludesLastItemInRange(boolean $includesLastItemInRange)
- * @method \garethp\ews\API\Type\SyncFolderItemsChangesType getChanges()
- * @method SyncFolderItemsResponseMessageType setChanges(\garethp\ews\API\Type\SyncFolderItemsChangesType $changes)
+ * @method \rklandesverband\ews\API\Type\SyncFolderItemsChangesType getChanges()
+ * @method SyncFolderItemsResponseMessageType setChanges(\rklandesverband\ews\API\Type\SyncFolderItemsChangesType $changes)
  */
 class SyncFolderItemsResponseMessageType extends ResponseMessageType
 {
@@ -30,7 +30,7 @@ class SyncFolderItemsResponseMessageType extends ResponseMessageType
     protected $includesLastItemInRange = null;
 
     /**
-     * @var \garethp\ews\API\Type\SyncFolderItemsChangesType
+     * @var \rklandesverband\ews\API\Type\SyncFolderItemsChangesType
      */
     protected $changes = null;
 }

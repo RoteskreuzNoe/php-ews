@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing RecurrenceType
@@ -33,47 +33,47 @@ class RecurrenceType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\RelativeYearlyRecurrencePatternType
+     * @var \rklandesverband\ews\API\Type\RelativeYearlyRecurrencePatternType
      */
     protected $relativeYearlyRecurrence = null;
 
     /**
-     * @var \garethp\ews\API\Type\AbsoluteYearlyRecurrencePatternType
+     * @var \rklandesverband\ews\API\Type\AbsoluteYearlyRecurrencePatternType
      */
     protected $absoluteYearlyRecurrence = null;
 
     /**
-     * @var \garethp\ews\API\Type\RelativeMonthlyRecurrencePatternType
+     * @var \rklandesverband\ews\API\Type\RelativeMonthlyRecurrencePatternType
      */
     protected $relativeMonthlyRecurrence = null;
 
     /**
-     * @var \garethp\ews\API\Type\AbsoluteMonthlyRecurrencePatternType
+     * @var \rklandesverband\ews\API\Type\AbsoluteMonthlyRecurrencePatternType
      */
     protected $absoluteMonthlyRecurrence = null;
 
     /**
-     * @var \garethp\ews\API\Type\WeeklyRecurrencePatternType
+     * @var \rklandesverband\ews\API\Type\WeeklyRecurrencePatternType
      */
     protected $weeklyRecurrence = null;
 
     /**
-     * @var \garethp\ews\API\Type\DailyRecurrencePatternType
+     * @var \rklandesverband\ews\API\Type\DailyRecurrencePatternType
      */
     protected $dailyRecurrence = null;
 
     /**
-     * @var \garethp\ews\API\Type\NoEndRecurrenceRangeType
+     * @var \rklandesverband\ews\API\Type\NoEndRecurrenceRangeType
      */
     protected $noEndRecurrence = null;
 
     /**
-     * @var \garethp\ews\API\Type\EndDateRecurrenceRangeType
+     * @var \rklandesverband\ews\API\Type\EndDateRecurrenceRangeType
      */
     protected $endDateRecurrence = null;
 
     /**
-     * @var \garethp\ews\API\Type\NumberedRecurrenceRangeType
+     * @var \rklandesverband\ews\API\Type\NumberedRecurrenceRangeType
      */
     protected $numberedRecurrence = null;
 }

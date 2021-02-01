@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing SuggestionsViewOptionsType
@@ -56,7 +56,7 @@ class SuggestionsViewOptionsType extends Type
     protected $minimumSuggestionQuality = null;
 
     /**
-     * @var \garethp\ews\API\Type\DurationType
+     * @var \rklandesverband\ews\API\Type\DurationType
      */
     protected $detailedSuggestionsWindow = null;
 

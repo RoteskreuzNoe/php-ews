@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing GetDelegateType
@@ -11,8 +11,8 @@ namespace garethp\ews\API\Message;
  * @method boolean isIncludePermissions()
  * @method boolean getIncludePermissions()
  * @method GetDelegateType setIncludePermissions(boolean $includePermissions)
- * @method GetDelegateType addUserIds(\garethp\ews\API\Type\UserIdType $userIds)
- * @method \garethp\ews\API\Type\UserIdType[] getUserIds()
+ * @method GetDelegateType addUserIds(\rklandesverband\ews\API\Type\UserIdType $userIds)
+ * @method \rklandesverband\ews\API\Type\UserIdType[] getUserIds()
  * @method GetDelegateType setUserIds(array $userIds)
  */
 class GetDelegateType extends BaseDelegateType
@@ -24,7 +24,7 @@ class GetDelegateType extends BaseDelegateType
     protected $includePermissions = null;
 
     /**
-     * @var \garethp\ews\API\Type\UserIdType[]
+     * @var \rklandesverband\ews\API\Type\UserIdType[]
      */
     protected $userIds = null;
 }

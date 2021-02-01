@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing BaseDelegateType
@@ -8,14 +8,14 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: BaseDelegateType
  *
- * @method \garethp\ews\API\Type\EmailAddressType getMailbox()
- * @method BaseDelegateType setMailbox(\garethp\ews\API\Type\EmailAddressType $mailbox)
+ * @method \rklandesverband\ews\API\Type\EmailAddressType getMailbox()
+ * @method BaseDelegateType setMailbox(\rklandesverband\ews\API\Type\EmailAddressType $mailbox)
  */
 class BaseDelegateType extends BaseRequestType
 {
 
     /**
-     * @var \garethp\ews\API\Type\EmailAddressType
+     * @var \rklandesverband\ews\API\Type\EmailAddressType
      */
     protected $mailbox = null;
 }

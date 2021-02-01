@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\Utilities;
+namespace rklandesverband\ews\Utilities;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * @param $input

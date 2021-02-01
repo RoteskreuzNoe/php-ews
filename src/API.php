@@ -1,14 +1,14 @@
 <?php
 
-namespace garethp\ews;
+namespace rklandesverband\ews;
 
-use garethp\ews\API\ExchangeWebServices;
-use garethp\ews\API\Message\EmptyFolderResponseType;
-use garethp\ews\API\Message\GetServerTimeZonesType;
-use garethp\ews\API\Message\SyncFolderItemsResponseMessageType;
-use garethp\ews\API\Message\UpdateItemResponseMessageType;
-use garethp\ews\API\Type;
-use garethp\ews\API\Type\BaseFolderIdType;
+use rklandesverband\ews\API\ExchangeWebServices;
+use rklandesverband\ews\API\Message\EmptyFolderResponseType;
+use rklandesverband\ews\API\Message\GetServerTimeZonesType;
+use rklandesverband\ews\API\Message\SyncFolderItemsResponseMessageType;
+use rklandesverband\ews\API\Message\UpdateItemResponseMessageType;
+use rklandesverband\ews\API\Type;
+use rklandesverband\ews\API\Type\BaseFolderIdType;
 
 /**
  * A base class for APIs

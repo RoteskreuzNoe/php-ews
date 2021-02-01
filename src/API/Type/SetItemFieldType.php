@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
 /**
  * Class representing SetItemFieldType
@@ -35,57 +35,57 @@ class SetItemFieldType extends ItemChangeDescriptionType
 {
 
     /**
-     * @var \garethp\ews\API\Type\ItemType
+     * @var \rklandesverband\ews\API\Type\ItemType
      */
     protected $item = null;
 
     /**
-     * @var \garethp\ews\API\Type\MessageType
+     * @var \rklandesverband\ews\API\Type\MessageType
      */
     protected $message = null;
 
     /**
-     * @var \garethp\ews\API\Type\CalendarItemType
+     * @var \rklandesverband\ews\API\Type\CalendarItemType
      */
     protected $calendarItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\ContactItemType
+     * @var \rklandesverband\ews\API\Type\ContactItemType
      */
     protected $contact = null;
 
     /**
-     * @var \garethp\ews\API\Type\DistributionListType
+     * @var \rklandesverband\ews\API\Type\DistributionListType
      */
     protected $distributionList = null;
 
     /**
-     * @var \garethp\ews\API\Type\MeetingMessageType
+     * @var \rklandesverband\ews\API\Type\MeetingMessageType
      */
     protected $meetingMessage = null;
 
     /**
-     * @var \garethp\ews\API\Type\MeetingRequestMessageType
+     * @var \rklandesverband\ews\API\Type\MeetingRequestMessageType
      */
     protected $meetingRequest = null;
 
     /**
-     * @var \garethp\ews\API\Type\MeetingResponseMessageType
+     * @var \rklandesverband\ews\API\Type\MeetingResponseMessageType
      */
     protected $meetingResponse = null;
 
     /**
-     * @var \garethp\ews\API\Type\MeetingCancellationMessageType
+     * @var \rklandesverband\ews\API\Type\MeetingCancellationMessageType
      */
     protected $meetingCancellation = null;
 
     /**
-     * @var \garethp\ews\API\Type\TaskType
+     * @var \rklandesverband\ews\API\Type\TaskType
      */
     protected $task = null;
 
     /**
-     * @var \garethp\ews\API\Type\PostItemType
+     * @var \rklandesverband\ews\API\Type\PostItemType
      */
     protected $postItem = null;
 }

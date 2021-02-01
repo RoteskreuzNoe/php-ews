@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing SetUserOofSettingsRequestType
@@ -8,21 +8,21 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: SetUserOofSettingsRequest
  *
- * @method \garethp\ews\API\Type\EmailAddressType getMailbox()
- * @method SetUserOofSettingsRequestType setMailbox(\garethp\ews\API\Type\EmailAddressType $mailbox)
- * @method \garethp\ews\API\Type\UserOofSettings getUserOofSettings()
- * @method SetUserOofSettingsRequestType setUserOofSettings(\garethp\ews\API\Type\UserOofSettings $userOofSettings)
+ * @method \rklandesverband\ews\API\Type\EmailAddressType getMailbox()
+ * @method SetUserOofSettingsRequestType setMailbox(\rklandesverband\ews\API\Type\EmailAddressType $mailbox)
+ * @method \rklandesverband\ews\API\Type\UserOofSettings getUserOofSettings()
+ * @method SetUserOofSettingsRequestType setUserOofSettings(\rklandesverband\ews\API\Type\UserOofSettings $userOofSettings)
  */
 class SetUserOofSettingsRequestType extends BaseRequestType
 {
 
     /**
-     * @var \garethp\ews\API\Type\EmailAddressType
+     * @var \rklandesverband\ews\API\Type\EmailAddressType
      */
     protected $mailbox = null;
 
     /**
-     * @var \garethp\ews\API\Type\UserOofSettings
+     * @var \rklandesverband\ews\API\Type\UserOofSettings
      */
     protected $userOofSettings = null;
 }

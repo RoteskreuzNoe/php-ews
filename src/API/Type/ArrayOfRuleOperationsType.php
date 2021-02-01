@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing ArrayOfRuleOperationsType
@@ -24,17 +24,17 @@ class ArrayOfRuleOperationsType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\CreateRuleOperationType[]
+     * @var \rklandesverband\ews\API\Type\CreateRuleOperationType[]
      */
     protected $createRuleOperation = null;
 
     /**
-     * @var \garethp\ews\API\Type\SetRuleOperationType[]
+     * @var \rklandesverband\ews\API\Type\SetRuleOperationType[]
      */
     protected $setRuleOperation = null;
 
     /**
-     * @var \garethp\ews\API\Type\DeleteRuleOperationType[]
+     * @var \rklandesverband\ews\API\Type\DeleteRuleOperationType[]
      */
     protected $deleteRuleOperation = null;
 }

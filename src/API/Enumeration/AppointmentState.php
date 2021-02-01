@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\AppointmentState.
+ * Contains \rklandesverband\ews\API\Enumeration\AppointmentState.
  */
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
 /**
  * Specifies the status of the appointment.

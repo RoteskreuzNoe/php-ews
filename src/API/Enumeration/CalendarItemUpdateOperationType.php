@@ -1,12 +1,12 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\CalendarItemUpdateOperationType.
+ * Contains \rklandesverband\ews\API\Enumeration\CalendarItemUpdateOperationType.
  */
 
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
-use garethp\ews\API\Enumeration;
+use rklandesverband\ews\API\Enumeration;
 
 /**
  * Class representing CalendarItemUpdateOperationType

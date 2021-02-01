@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing FolderChangeType
@@ -21,17 +21,17 @@ class FolderChangeType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\FolderIdType
+     * @var \rklandesverband\ews\API\Type\FolderIdType
      */
     protected $folderId = null;
 
     /**
-     * @var \garethp\ews\API\Type\DistinguishedFolderIdType
+     * @var \rklandesverband\ews\API\Type\DistinguishedFolderIdType
      */
     protected $distinguishedFolderId = null;
 
     /**
-     * @var \garethp\ews\API\Type\NonEmptyArrayOfFolderChangeDescriptionsType
+     * @var \rklandesverband\ews\API\Type\NonEmptyArrayOfFolderChangeDescriptionsType
      */
     protected $updates = null;
 }

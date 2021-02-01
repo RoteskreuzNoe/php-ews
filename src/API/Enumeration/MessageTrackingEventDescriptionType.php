@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\MessageTrackingEventDescriptionType.
+ * Contains \rklandesverband\ews\API\Enumeration\MessageTrackingEventDescriptionType.
  */
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
 /**
  * Class description...

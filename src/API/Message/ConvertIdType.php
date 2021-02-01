@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing ConvertIdType
@@ -11,8 +11,8 @@ namespace garethp\ews\API\Message;
  *
  * @method string getDestinationFormat()
  * @method ConvertIdType setDestinationFormat(string $destinationFormat)
- * @method \garethp\ews\API\Type\NonEmptyArrayOfAlternateIdsType getSourceIds()
- * @method ConvertIdType setSourceIds(\garethp\ews\API\Type\NonEmptyArrayOfAlternateIdsType $sourceIds)
+ * @method \rklandesverband\ews\API\Type\NonEmptyArrayOfAlternateIdsType getSourceIds()
+ * @method ConvertIdType setSourceIds(\rklandesverband\ews\API\Type\NonEmptyArrayOfAlternateIdsType $sourceIds)
  */
 class ConvertIdType extends BaseRequestType
 {
@@ -23,7 +23,7 @@ class ConvertIdType extends BaseRequestType
     protected $destinationFormat = null;
 
     /**
-     * @var \garethp\ews\API\Type\NonEmptyArrayOfAlternateIdsType
+     * @var \rklandesverband\ews\API\Type\NonEmptyArrayOfAlternateIdsType
      */
     protected $sourceIds = null;
 }

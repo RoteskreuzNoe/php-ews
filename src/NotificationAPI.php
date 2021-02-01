@@ -1,10 +1,10 @@
 <?php
 
-namespace garethp\ews;
+namespace rklandesverband\ews;
 
-use garethp\ews\API\ClassMap;
-use garethp\ews\API\Type\BaseFolderIdType;
-use garethp\ews\API\Type\FolderIdType;
+use rklandesverband\ews\API\ClassMap;
+use rklandesverband\ews\API\Type\BaseFolderIdType;
+use rklandesverband\ews\API\Type\FolderIdType;
 
 class NotificationAPI extends API
 {

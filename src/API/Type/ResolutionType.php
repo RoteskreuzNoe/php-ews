@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing ResolutionType
@@ -19,12 +19,12 @@ class ResolutionType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\EmailAddressType
+     * @var \rklandesverband\ews\API\Type\EmailAddressType
      */
     protected $mailbox = null;
 
     /**
-     * @var \garethp\ews\API\Type\ContactItemType
+     * @var \rklandesverband\ews\API\Type\ContactItemType
      */
     protected $contact = null;
 }

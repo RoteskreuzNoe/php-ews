@@ -1,12 +1,12 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\NotificationEventTypeType.
+ * Contains \rklandesverband\ews\API\Enumeration\NotificationEventTypeType.
  */
 
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
-use garethp\ews\API\Enumeration;
+use rklandesverband\ews\API\Enumeration;
 
 /**
  * Class representing NotificationEventTypeType

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\MailboxSearchLocationType.
+ * Contains \rklandesverband\ews\API\Enumeration\MailboxSearchLocationType.
  */
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
 /**
  * Defines whether a search or fetch for a conversation should span either the

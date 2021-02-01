@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing ExpandDLResponseMessageType
@@ -19,8 +19,8 @@ namespace garethp\ews\API\Message;
  * @method ExpandDLResponseMessageType setIncludesLastItemInRange(boolean $includesLastItemInRange)
  * @method integer getTotalItemsInView()
  * @method ExpandDLResponseMessageType setTotalItemsInView(integer $totalItemsInView)
- * @method \garethp\ews\API\Type\ArrayOfDLExpansionType getDLExpansion()
- * @method ExpandDLResponseMessageType setDLExpansion(\garethp\ews\API\Type\ArrayOfDLExpansionType $dLExpansion)
+ * @method \rklandesverband\ews\API\Type\ArrayOfDLExpansionType getDLExpansion()
+ * @method ExpandDLResponseMessageType setDLExpansion(\rklandesverband\ews\API\Type\ArrayOfDLExpansionType $dLExpansion)
  */
 class ExpandDLResponseMessageType extends ResponseMessageType
 {
@@ -51,7 +51,7 @@ class ExpandDLResponseMessageType extends ResponseMessageType
     protected $totalItemsInView = null;
 
     /**
-     * @var \garethp\ews\API\Type\ArrayOfDLExpansionType
+     * @var \rklandesverband\ews\API\Type\ArrayOfDLExpansionType
      */
     protected $dLExpansion = null;
 }

@@ -1,9 +1,9 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Exception;
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Exception;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing BaseFolderIdType

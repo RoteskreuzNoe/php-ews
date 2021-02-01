@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
 /**
  * Class representing MovedCopiedEventType
@@ -19,17 +19,17 @@ class MovedCopiedEventType extends BaseObjectChangedEventType
 {
 
     /**
-     * @var \garethp\ews\API\Type\FolderIdType
+     * @var \rklandesverband\ews\API\Type\FolderIdType
      */
     protected $oldFolderId = null;
 
     /**
-     * @var \garethp\ews\API\Type\ItemIdType
+     * @var \rklandesverband\ews\API\Type\ItemIdType
      */
     protected $oldItemId = null;
 
     /**
-     * @var \garethp\ews\API\Type\FolderIdType
+     * @var \rklandesverband\ews\API\Type\FolderIdType
      */
     protected $oldParentFolderId = null;
 }

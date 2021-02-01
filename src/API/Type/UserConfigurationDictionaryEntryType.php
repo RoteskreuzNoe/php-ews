@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing UserConfigurationDictionaryEntryType
@@ -19,12 +19,12 @@ class UserConfigurationDictionaryEntryType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\UserConfigurationDictionaryObjectType
+     * @var \rklandesverband\ews\API\Type\UserConfigurationDictionaryObjectType
      */
     protected $dictionaryKey = null;
 
     /**
-     * @var \garethp\ews\API\Type\UserConfigurationDictionaryObjectType
+     * @var \rklandesverband\ews\API\Type\UserConfigurationDictionaryObjectType
      */
     protected $dictionaryValue = null;
 }

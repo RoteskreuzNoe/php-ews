@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing AttachmentType
@@ -32,7 +32,7 @@ class AttachmentType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\AttachmentIdType
+     * @var \rklandesverband\ews\API\Type\AttachmentIdType
      */
     protected $attachmentId = null;
 

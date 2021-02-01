@@ -1,13 +1,13 @@
 <?php
 
-namespace garethp\ews\API\ExchangeWebServices;
+namespace rklandesverband\ews\API\ExchangeWebServices;
 
-use garethp\ews\API\MiddlewareRequest;
-use garethp\ews\API\MiddlewareResponse;
-use garethp\ews\API\Type;
-use garethp\ews\API\ExchangeWebServices;
-use garethp\ews\API\Type\FindFolderParentType;
-use garethp\ews\API\Type\FindItemParentType;
+use rklandesverband\ews\API\MiddlewareRequest;
+use rklandesverband\ews\API\MiddlewareResponse;
+use rklandesverband\ews\API\Type;
+use rklandesverband\ews\API\ExchangeWebServices;
+use rklandesverband\ews\API\Type\FindFolderParentType;
+use rklandesverband\ews\API\Type\FindItemParentType;
 
 class MiddlewareFactory
 {

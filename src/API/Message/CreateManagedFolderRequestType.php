@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing CreateManagedFolderRequestType
@@ -11,8 +11,8 @@ namespace garethp\ews\API\Message;
  * @method CreateManagedFolderRequestType addFolderNames(string $folderNames)
  * @method string[] getFolderNames()
  * @method CreateManagedFolderRequestType setFolderNames(array $folderNames)
- * @method \garethp\ews\API\Type\EmailAddressType getMailbox()
- * @method CreateManagedFolderRequestType setMailbox(\garethp\ews\API\Type\EmailAddressType $mailbox)
+ * @method \rklandesverband\ews\API\Type\EmailAddressType getMailbox()
+ * @method CreateManagedFolderRequestType setMailbox(\rklandesverband\ews\API\Type\EmailAddressType $mailbox)
  */
 class CreateManagedFolderRequestType extends BaseRequestType
 {
@@ -23,7 +23,7 @@ class CreateManagedFolderRequestType extends BaseRequestType
     protected $folderNames = null;
 
     /**
-     * @var \garethp\ews\API\Type\EmailAddressType
+     * @var \rklandesverband\ews\API\Type\EmailAddressType
      */
     protected $mailbox = null;
 }

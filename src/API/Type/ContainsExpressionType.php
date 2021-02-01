@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
 /**
  * Class representing ContainsExpressionType
@@ -38,22 +38,22 @@ class ContainsExpressionType extends SearchExpressionType
     protected $containmentComparison = null;
 
     /**
-     * @var \garethp\ews\API\Type\FieldURI[]
+     * @var \rklandesverband\ews\API\Type\FieldURI[]
      */
     protected $fieldURI = null;
 
     /**
-     * @var \garethp\ews\API\Type\IndexedFieldURI[]
+     * @var \rklandesverband\ews\API\Type\IndexedFieldURI[]
      */
     protected $indexedFieldURI = null;
 
     /**
-     * @var \garethp\ews\API\Type\ExtendedFieldURI[]
+     * @var \rklandesverband\ews\API\Type\ExtendedFieldURI[]
      */
     protected $extendedFieldURI = null;
 
     /**
-     * @var \garethp\ews\API\Type\ConstantValueType
+     * @var \rklandesverband\ews\API\Type\ConstantValueType
      */
     protected $constant = null;
 }

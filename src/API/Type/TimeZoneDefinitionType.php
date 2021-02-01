@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing TimeZoneDefinitionType
@@ -37,17 +37,17 @@ class TimeZoneDefinitionType extends Type
     protected $name = null;
 
     /**
-     * @var \garethp\ews\API\Type\PeriodType[]
+     * @var \rklandesverband\ews\API\Type\PeriodType[]
      */
     protected $periods = null;
 
     /**
-     * @var \garethp\ews\API\Type\ArrayOfTransitionsType[]
+     * @var \rklandesverband\ews\API\Type\ArrayOfTransitionsType[]
      */
     protected $transitionsGroups = null;
 
     /**
-     * @var \garethp\ews\API\Type\ArrayOfTransitionsType
+     * @var \rklandesverband\ews\API\Type\ArrayOfTransitionsType
      */
     protected $transitions = null;
 }

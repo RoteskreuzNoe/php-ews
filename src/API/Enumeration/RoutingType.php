@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\RoutingType.
+ * Contains \rklandesverband\ews\API\Enumeration\RoutingType.
  */
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
 /**
  * Represents the routing protocol for a recipient.

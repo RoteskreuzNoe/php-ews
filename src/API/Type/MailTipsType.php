@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing MailTipsType
@@ -42,7 +42,7 @@ class MailTipsType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\EmailAddressType
+     * @var \rklandesverband\ews\API\Type\EmailAddressType
      */
     protected $recipientAddress = null;
 
@@ -52,7 +52,7 @@ class MailTipsType extends Type
     protected $pendingMailTips = null;
 
     /**
-     * @var \garethp\ews\API\Type\OutOfOfficeMailTipType
+     * @var \rklandesverband\ews\API\Type\OutOfOfficeMailTipType
      */
     protected $outOfOffice = null;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing MailboxStatisticsSearchResultType
@@ -19,12 +19,12 @@ class MailboxStatisticsSearchResultType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\UserMailboxType
+     * @var \rklandesverband\ews\API\Type\UserMailboxType
      */
     protected $userMailbox = null;
 
     /**
-     * @var \garethp\ews\API\Type\KeywordStatisticsSearchResultType
+     * @var \rklandesverband\ews\API\Type\KeywordStatisticsSearchResultType
      */
     protected $keywordStatisticsSearchResult = null;
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\Contacts;
+namespace rklandesverband\ews\Contacts;
 
-use garethp\ews\ContactsAPI as BaseContactsAPI;
+use rklandesverband\ews\ContactsAPI as BaseContactsAPI;
 
 /**
  * Class ContactsAPI

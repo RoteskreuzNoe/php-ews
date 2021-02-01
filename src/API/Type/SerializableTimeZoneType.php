@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing SerializableTimeZoneType
@@ -26,12 +26,12 @@ class SerializableTimeZoneType extends Type
     protected $bias = null;
 
     /**
-     * @var \garethp\ews\API\Type\SerializableTimeZoneTimeType
+     * @var \rklandesverband\ews\API\Type\SerializableTimeZoneTimeType
      */
     protected $standardTime = null;
 
     /**
-     * @var \garethp\ews\API\Type\SerializableTimeZoneTimeType
+     * @var \rklandesverband\ews\API\Type\SerializableTimeZoneTimeType
      */
     protected $daylightTime = null;
 }

@@ -1,13 +1,13 @@
 <?php
 
-namespace garethp\ews;
+namespace rklandesverband\ews;
 
 use DateTime;
-use garethp\ews\API\Enumeration;
-use garethp\ews\API\Exception\ExchangeException;
-use garethp\ews\API\Message\FreeBusyResponseType;
-use garethp\ews\API\Type;
-use garethp\ews\API\Type\CalendarItemType;
+use rklandesverband\ews\API\Enumeration;
+use rklandesverband\ews\API\Exception\ExchangeException;
+use rklandesverband\ews\API\Message\FreeBusyResponseType;
+use rklandesverband\ews\API\Type;
+use rklandesverband\ews\API\Type\CalendarItemType;
 
 /**
  * An API end point for Calendar items

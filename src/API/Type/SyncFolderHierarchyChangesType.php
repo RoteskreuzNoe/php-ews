@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing SyncFolderHierarchyChangesType
@@ -24,17 +24,17 @@ class SyncFolderHierarchyChangesType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\SyncFolderHierarchyCreateOrUpdateType[]
+     * @var \rklandesverband\ews\API\Type\SyncFolderHierarchyCreateOrUpdateType[]
      */
     protected $create = null;
 
     /**
-     * @var \garethp\ews\API\Type\SyncFolderHierarchyCreateOrUpdateType[]
+     * @var \rklandesverband\ews\API\Type\SyncFolderHierarchyCreateOrUpdateType[]
      */
     protected $update = null;
 
     /**
-     * @var \garethp\ews\API\Type\SyncFolderHierarchyDeleteType[]
+     * @var \rklandesverband\ews\API\Type\SyncFolderHierarchyDeleteType[]
      */
     protected $delete = null;
 }

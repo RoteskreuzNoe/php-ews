@@ -1,11 +1,11 @@
 <?php
 
-namespace garethp\ews\API;
+namespace rklandesverband\ews\API;
 
 class MiddlewareResponse
 {
     protected $response;
-    
+
     protected function __construct($response = null)
     {
         $this->response = $response;

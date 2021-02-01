@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
-use garethp\ews\API\Message;
+use rklandesverband\ews\API\Message;
 
 /**
  * Class representing GetUserAvailabilityResponseType
@@ -20,12 +20,12 @@ class GetUserAvailabilityResponseType extends Message
 {
 
     /**
-     * @var \garethp\ews\API\Message\FreeBusyResponseType[]
+     * @var \rklandesverband\ews\API\Message\FreeBusyResponseType[]
      */
     protected $freeBusyResponseArray = null;
 
     /**
-     * @var \garethp\ews\API\Message\SuggestionsResponseType
+     * @var \rklandesverband\ews\API\Message\SuggestionsResponseType
      */
     protected $suggestionsResponse = null;
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing SubscribeType
@@ -8,28 +8,28 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: SubscribeType
  *
- * @method \garethp\ews\API\Type\PullSubscriptionRequestType getPullSubscriptionRequest()
- * @method SubscribeType setPullSubscriptionRequest(\garethp\ews\API\Type\PullSubscriptionRequestType $pullSubscriptionRequest)
- * @method \garethp\ews\API\Type\PushSubscriptionRequestType getPushSubscriptionRequest()
- * @method SubscribeType setPushSubscriptionRequest(\garethp\ews\API\Type\PushSubscriptionRequestType $pushSubscriptionRequest)
- * @method \garethp\ews\API\Type\StreamingSubscriptionRequestType getStreamingSubscriptionRequest()
- * @method SubscribeType setStreamingSubscriptionRequest(\garethp\ews\API\Type\StreamingSubscriptionRequestType $streamingSubscriptionRequest)
+ * @method \rklandesverband\ews\API\Type\PullSubscriptionRequestType getPullSubscriptionRequest()
+ * @method SubscribeType setPullSubscriptionRequest(\rklandesverband\ews\API\Type\PullSubscriptionRequestType $pullSubscriptionRequest)
+ * @method \rklandesverband\ews\API\Type\PushSubscriptionRequestType getPushSubscriptionRequest()
+ * @method SubscribeType setPushSubscriptionRequest(\rklandesverband\ews\API\Type\PushSubscriptionRequestType $pushSubscriptionRequest)
+ * @method \rklandesverband\ews\API\Type\StreamingSubscriptionRequestType getStreamingSubscriptionRequest()
+ * @method SubscribeType setStreamingSubscriptionRequest(\rklandesverband\ews\API\Type\StreamingSubscriptionRequestType $streamingSubscriptionRequest)
  */
 class SubscribeType extends BaseRequestType
 {
 
     /**
-     * @var \garethp\ews\API\Type\PullSubscriptionRequestType
+     * @var \rklandesverband\ews\API\Type\PullSubscriptionRequestType
      */
     protected $pullSubscriptionRequest = null;
 
     /**
-     * @var \garethp\ews\API\Type\PushSubscriptionRequestType
+     * @var \rklandesverband\ews\API\Type\PushSubscriptionRequestType
      */
     protected $pushSubscriptionRequest = null;
 
     /**
-     * @var \garethp\ews\API\Type\StreamingSubscriptionRequestType
+     * @var \rklandesverband\ews\API\Type\StreamingSubscriptionRequestType
      */
     protected $streamingSubscriptionRequest = null;
 }

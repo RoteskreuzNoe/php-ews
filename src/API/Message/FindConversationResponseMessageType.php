@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing FindConversationResponseMessageType
@@ -8,15 +8,15 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: FindConversationResponseMessageType
  *
- * @method FindConversationResponseMessageType addConversations(\garethp\ews\API\Type\ConversationType $conversations)
- * @method \garethp\ews\API\Type\ConversationType[] getConversations()
+ * @method FindConversationResponseMessageType addConversations(\rklandesverband\ews\API\Type\ConversationType $conversations)
+ * @method \rklandesverband\ews\API\Type\ConversationType[] getConversations()
  * @method FindConversationResponseMessageType setConversations(array $conversations)
  */
 class FindConversationResponseMessageType extends ResponseMessageType
 {
 
     /**
-     * @var \garethp\ews\API\Type\ConversationType[]
+     * @var \rklandesverband\ews\API\Type\ConversationType[]
      */
     protected $conversations = null;
 }

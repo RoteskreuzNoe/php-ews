@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing RuleType
@@ -66,17 +66,17 @@ class RuleType extends Type
     protected $isInError = null;
 
     /**
-     * @var \garethp\ews\API\Type\RulePredicatesType
+     * @var \rklandesverband\ews\API\Type\RulePredicatesType
      */
     protected $conditions = null;
 
     /**
-     * @var \garethp\ews\API\Type\RulePredicatesType
+     * @var \rklandesverband\ews\API\Type\RulePredicatesType
      */
     protected $exceptions = null;
 
     /**
-     * @var \garethp\ews\API\Type\RuleActionsType
+     * @var \rklandesverband\ews\API\Type\RuleActionsType
      */
     protected $actions = null;
 }

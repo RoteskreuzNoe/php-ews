@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
 /**
  * Class representing SetRuleOperationType
@@ -15,7 +15,7 @@ class SetRuleOperationType extends RuleOperationType
 {
 
     /**
-     * @var \garethp\ews\API\Type\RuleType
+     * @var \rklandesverband\ews\API\Type\RuleType
      */
     protected $rule = null;
 }

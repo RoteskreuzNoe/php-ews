@@ -1,13 +1,13 @@
 <?php
 /**
  * Contains
- * \garethp\ews\API\Enumeration\UserConfigurationDictionaryObjectTypesType.
+ * \rklandesverband\ews\API\Enumeration\UserConfigurationDictionaryObjectTypesType.
  */
 
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
-use garethp\ews\API\Enumeration;
+use rklandesverband\ews\API\Enumeration;
 
 /**
  * Class representing UserConfigurationDictionaryObjectTypesType

@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing AggregateOnType
@@ -29,17 +29,17 @@ class AggregateOnType extends Type
     protected $aggregate = null;
 
     /**
-     * @var \garethp\ews\API\Type\PathToUnindexedFieldType
+     * @var \rklandesverband\ews\API\Type\PathToUnindexedFieldType
      */
     protected $fieldURI = null;
 
     /**
-     * @var \garethp\ews\API\Type\PathToIndexedFieldType
+     * @var \rklandesverband\ews\API\Type\PathToIndexedFieldType
      */
     protected $indexedFieldURI = null;
 
     /**
-     * @var \garethp\ews\API\Type\PathToExtendedFieldType
+     * @var \rklandesverband\ews\API\Type\PathToExtendedFieldType
      */
     protected $extendedFieldURI = null;
 }

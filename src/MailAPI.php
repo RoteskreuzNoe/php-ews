@@ -1,10 +1,10 @@
 <?php
 
-namespace garethp\ews;
+namespace rklandesverband\ews;
 
-use garethp\ews\API\Enumeration\DistinguishedFolderIdNameType;
-use garethp\ews\API\Type;
-use garethp\ews\API\Type\MessageType;
+use rklandesverband\ews\API\Enumeration\DistinguishedFolderIdNameType;
+use rklandesverband\ews\API\Type;
+use rklandesverband\ews\API\Type\MessageType;
 
 class MailAPI extends API
 {

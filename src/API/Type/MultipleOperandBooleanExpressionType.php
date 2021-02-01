@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
 /**
  * Class representing MultipleOperandBooleanExpressionType
@@ -49,62 +49,62 @@ class MultipleOperandBooleanExpressionType extends SearchExpressionType
 {
 
     /**
-     * @var \garethp\ews\API\Type\Contains[]
+     * @var \rklandesverband\ews\API\Type\Contains[]
      */
     protected $contains = null;
 
     /**
-     * @var \garethp\ews\API\Type\Excludes[]
+     * @var \rklandesverband\ews\API\Type\Excludes[]
      */
     protected $excludes = null;
 
     /**
-     * @var \garethp\ews\API\Type\Exists[]
+     * @var \rklandesverband\ews\API\Type\Exists[]
      */
     protected $exists = null;
 
     /**
-     * @var \garethp\ews\API\Type\IsEqualTo[]
+     * @var \rklandesverband\ews\API\Type\IsEqualTo[]
      */
     protected $isEqualTo = null;
 
     /**
-     * @var \garethp\ews\API\Type\IsNotEqualTo[]
+     * @var \rklandesverband\ews\API\Type\IsNotEqualTo[]
      */
     protected $isNotEqualTo = null;
 
     /**
-     * @var \garethp\ews\API\Type\IsGreaterThan[]
+     * @var \rklandesverband\ews\API\Type\IsGreaterThan[]
      */
     protected $isGreaterThan = null;
 
     /**
-     * @var \garethp\ews\API\Type\IsGreaterThanOrEqualTo[]
+     * @var \rklandesverband\ews\API\Type\IsGreaterThanOrEqualTo[]
      */
     protected $isGreaterThanOrEqualTo = null;
 
     /**
-     * @var \garethp\ews\API\Type\IsLessThan[]
+     * @var \rklandesverband\ews\API\Type\IsLessThan[]
      */
     protected $isLessThan = null;
 
     /**
-     * @var \garethp\ews\API\Type\IsLessThanOrEqualTo[]
+     * @var \rklandesverband\ews\API\Type\IsLessThanOrEqualTo[]
      */
     protected $isLessThanOrEqualTo = null;
 
     /**
-     * @var \garethp\ews\API\Type\AndElement[]
+     * @var \rklandesverband\ews\API\Type\AndElement[]
      */
     protected $and = null;
 
     /**
-     * @var \garethp\ews\API\Type\Not[]
+     * @var \rklandesverband\ews\API\Type\Not[]
      */
     protected $not = null;
 
     /**
-     * @var \garethp\ews\API\Type\OrElement[]
+     * @var \rklandesverband\ews\API\Type\OrElement[]
      */
     protected $or = null;
 }

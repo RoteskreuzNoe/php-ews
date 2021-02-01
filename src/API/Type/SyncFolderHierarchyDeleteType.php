@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing SyncFolderHierarchyDeleteType
@@ -17,7 +17,7 @@ class SyncFolderHierarchyDeleteType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\FolderIdType
+     * @var \rklandesverband\ews\API\Type\FolderIdType
      */
     protected $folderId = null;
 }

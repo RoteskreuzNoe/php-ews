@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing UploadItemType
@@ -36,12 +36,12 @@ class UploadItemType extends Type
     protected $isAssociated = null;
 
     /**
-     * @var \garethp\ews\API\Type\FolderIdType
+     * @var \rklandesverband\ews\API\Type\FolderIdType
      */
     protected $parentFolderId = null;
 
     /**
-     * @var \garethp\ews\API\Type\ItemIdType
+     * @var \rklandesverband\ews\API\Type\ItemIdType
      */
     protected $itemId = null;
 

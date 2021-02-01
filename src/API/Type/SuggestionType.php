@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing SuggestionType
@@ -43,7 +43,7 @@ class SuggestionType extends Type
     protected $suggestionQuality = null;
 
     /**
-     * @var \garethp\ews\API\Type\ArrayOfAttendeeConflictDataType
+     * @var \rklandesverband\ews\API\Type\ArrayOfAttendeeConflictDataType
      */
     protected $attendeeConflictDataArray = null;
 }

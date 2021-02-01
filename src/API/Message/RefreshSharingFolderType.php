@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing RefreshSharingFolderType
@@ -8,14 +8,14 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: RefreshSharingFolderType
  *
- * @method \garethp\ews\API\Type\FolderIdType getSharingFolderId()
- * @method RefreshSharingFolderType setSharingFolderId(\garethp\ews\API\Type\FolderIdType $sharingFolderId)
+ * @method \rklandesverband\ews\API\Type\FolderIdType getSharingFolderId()
+ * @method RefreshSharingFolderType setSharingFolderId(\rklandesverband\ews\API\Type\FolderIdType $sharingFolderId)
  */
 class RefreshSharingFolderType extends BaseRequestType
 {
 
     /**
-     * @var \garethp\ews\API\Type\FolderIdType
+     * @var \rklandesverband\ews\API\Type\FolderIdType
      */
     protected $sharingFolderId = null;
 }

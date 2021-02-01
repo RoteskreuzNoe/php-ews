@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing ConvertIdResponseMessageType
@@ -9,14 +9,14 @@ namespace garethp\ews\API\Message;
  *  that the AlternateId element will be missing in the case of an error.
  * XSD Type: ConvertIdResponseMessageType
  *
- * @method \garethp\ews\API\Type\AlternateIdBaseType getAlternateId()
- * @method ConvertIdResponseMessageType setAlternateId(\garethp\ews\API\Type\AlternateIdBaseType $alternateId)
+ * @method \rklandesverband\ews\API\Type\AlternateIdBaseType getAlternateId()
+ * @method ConvertIdResponseMessageType setAlternateId(\rklandesverband\ews\API\Type\AlternateIdBaseType $alternateId)
  */
 class ConvertIdResponseMessageType extends ResponseMessageType
 {
 
     /**
-     * @var \garethp\ews\API\Type\AlternateIdBaseType
+     * @var \rklandesverband\ews\API\Type\AlternateIdBaseType
      */
     protected $alternateId = null;
 }

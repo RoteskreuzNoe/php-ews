@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
 /**
  * Class representing ProtectionRulesServiceConfigurationType
@@ -26,12 +26,12 @@ class ProtectionRulesServiceConfigurationType extends ServiceConfigurationType
     protected $refreshInterval = null;
 
     /**
-     * @var \garethp\ews\API\Type\ProtectionRuleType[]
+     * @var \rklandesverband\ews\API\Type\ProtectionRuleType[]
      */
     protected $rules = null;
 
     /**
-     * @var \garethp\ews\API\Type\SmtpDomainType[]
+     * @var \rklandesverband\ews\API\Type\SmtpDomainType[]
      */
     protected $internalDomains = null;
 }

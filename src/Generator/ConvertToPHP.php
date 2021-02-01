@@ -1,10 +1,10 @@
 <?php
 
-namespace garethp\ews\Generator;
+namespace rklandesverband\ews\Generator;
 
-use garethp\ews\API\ClassMap;
-use garethp\ews\API\Enumeration;
-use garethp\ews\API\ExchangeWebServices;
+use rklandesverband\ews\API\ClassMap;
+use rklandesverband\ews\API\Enumeration;
+use rklandesverband\ews\API\ExchangeWebServices;
 use Symfony\Component\Console\Helper\ProgressBar;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;

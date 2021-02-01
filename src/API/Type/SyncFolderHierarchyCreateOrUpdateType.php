@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing SyncFolderHierarchyCreateOrUpdateType
@@ -25,27 +25,27 @@ class SyncFolderHierarchyCreateOrUpdateType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\FolderType
+     * @var \rklandesverband\ews\API\Type\FolderType
      */
     protected $folder = null;
 
     /**
-     * @var \garethp\ews\API\Type\CalendarFolderType
+     * @var \rklandesverband\ews\API\Type\CalendarFolderType
      */
     protected $calendarFolder = null;
 
     /**
-     * @var \garethp\ews\API\Type\ContactsFolderType
+     * @var \rklandesverband\ews\API\Type\ContactsFolderType
      */
     protected $contactsFolder = null;
 
     /**
-     * @var \garethp\ews\API\Type\SearchFolderType
+     * @var \rklandesverband\ews\API\Type\SearchFolderType
      */
     protected $searchFolder = null;
 
     /**
-     * @var \garethp\ews\API\Type\TasksFolderType
+     * @var \rklandesverband\ews\API\Type\TasksFolderType
      */
     protected $tasksFolder = null;
 }

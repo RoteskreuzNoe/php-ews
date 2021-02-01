@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing NonEmptyArrayOfAllItemsType
@@ -81,112 +81,112 @@ class NonEmptyArrayOfAllItemsType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\ItemType[]
+     * @var \rklandesverband\ews\API\Type\ItemType[]
      */
     protected $item = null;
 
     /**
-     * @var \garethp\ews\API\Type\MessageType[]
+     * @var \rklandesverband\ews\API\Type\MessageType[]
      */
     protected $message = null;
 
     /**
-     * @var \garethp\ews\API\Type\CalendarItemType[]
+     * @var \rklandesverband\ews\API\Type\CalendarItemType[]
      */
     protected $calendarItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\ContactItemType[]
+     * @var \rklandesverband\ews\API\Type\ContactItemType[]
      */
     protected $contact = null;
 
     /**
-     * @var \garethp\ews\API\Type\DistributionListType[]
+     * @var \rklandesverband\ews\API\Type\DistributionListType[]
      */
     protected $distributionList = null;
 
     /**
-     * @var \garethp\ews\API\Type\MeetingMessageType[]
+     * @var \rklandesverband\ews\API\Type\MeetingMessageType[]
      */
     protected $meetingMessage = null;
 
     /**
-     * @var \garethp\ews\API\Type\MeetingRequestMessageType[]
+     * @var \rklandesverband\ews\API\Type\MeetingRequestMessageType[]
      */
     protected $meetingRequest = null;
 
     /**
-     * @var \garethp\ews\API\Type\MeetingResponseMessageType[]
+     * @var \rklandesverband\ews\API\Type\MeetingResponseMessageType[]
      */
     protected $meetingResponse = null;
 
     /**
-     * @var \garethp\ews\API\Type\MeetingCancellationMessageType[]
+     * @var \rklandesverband\ews\API\Type\MeetingCancellationMessageType[]
      */
     protected $meetingCancellation = null;
 
     /**
-     * @var \garethp\ews\API\Type\TaskType[]
+     * @var \rklandesverband\ews\API\Type\TaskType[]
      */
     protected $task = null;
 
     /**
-     * @var \garethp\ews\API\Type\PostItemType[]
+     * @var \rklandesverband\ews\API\Type\PostItemType[]
      */
     protected $postItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\ReplyToItemType[]
+     * @var \rklandesverband\ews\API\Type\ReplyToItemType[]
      */
     protected $replyToItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\ForwardItemType[]
+     * @var \rklandesverband\ews\API\Type\ForwardItemType[]
      */
     protected $forwardItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\ReplyAllToItemType[]
+     * @var \rklandesverband\ews\API\Type\ReplyAllToItemType[]
      */
     protected $replyAllToItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\AcceptItemType[]
+     * @var \rklandesverband\ews\API\Type\AcceptItemType[]
      */
     protected $acceptItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\TentativelyAcceptItemType[]
+     * @var \rklandesverband\ews\API\Type\TentativelyAcceptItemType[]
      */
     protected $tentativelyAcceptItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\DeclineItemType[]
+     * @var \rklandesverband\ews\API\Type\DeclineItemType[]
      */
     protected $declineItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\CancelCalendarItemType[]
+     * @var \rklandesverband\ews\API\Type\CancelCalendarItemType[]
      */
     protected $cancelCalendarItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\RemoveItemType[]
+     * @var \rklandesverband\ews\API\Type\RemoveItemType[]
      */
     protected $removeItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\SuppressReadReceiptType[]
+     * @var \rklandesverband\ews\API\Type\SuppressReadReceiptType[]
      */
     protected $suppressReadReceipt = null;
 
     /**
-     * @var \garethp\ews\API\Type\PostReplyItemType[]
+     * @var \rklandesverband\ews\API\Type\PostReplyItemType[]
      */
     protected $postReplyItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\AcceptSharingInvitationType[]
+     * @var \rklandesverband\ews\API\Type\AcceptSharingInvitationType[]
      */
     protected $acceptSharingInvitation = null;
 }

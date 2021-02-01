@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing NonEmptyArrayOfItemChangeDescriptionsType
@@ -24,17 +24,17 @@ class NonEmptyArrayOfItemChangeDescriptionsType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\AppendToItemFieldType[]
+     * @var \rklandesverband\ews\API\Type\AppendToItemFieldType[]
      */
     protected $appendToItemField = null;
 
     /**
-     * @var \garethp\ews\API\Type\SetItemFieldType[]
+     * @var \rklandesverband\ews\API\Type\SetItemFieldType[]
      */
     protected $setItemField = null;
 
     /**
-     * @var \garethp\ews\API\Type\DeleteItemFieldType[]
+     * @var \rklandesverband\ews\API\Type\DeleteItemFieldType[]
      */
     protected $deleteItemField = null;
 }

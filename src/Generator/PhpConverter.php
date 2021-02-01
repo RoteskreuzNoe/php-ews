@@ -6,7 +6,7 @@
  * Time: 15:20
  */
 
-namespace garethp\ews\Generator;
+namespace rklandesverband\ews\Generator;
 
 use Exception;
 use Doctrine\Common\Inflector\Inflector;

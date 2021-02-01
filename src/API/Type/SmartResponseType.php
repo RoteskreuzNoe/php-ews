@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
 /**
  * Class representing SmartResponseType
@@ -15,7 +15,7 @@ class SmartResponseType extends SmartResponseBaseType
 {
 
     /**
-     * @var \garethp\ews\API\Type\BodyType
+     * @var \rklandesverband\ews\API\Type\BodyType
      */
     protected $newBodyContent = null;
 }

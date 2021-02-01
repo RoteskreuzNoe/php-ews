@@ -6,9 +6,9 @@
  * Time: 10:27
  */
 
-namespace garethp\ews\API;
+namespace rklandesverband\ews\API;
 
-use garethp\ews\Caster;
+use rklandesverband\ews\Caster;
 
 trait MagicMethodsTrait
 {

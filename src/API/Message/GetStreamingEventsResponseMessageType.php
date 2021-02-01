@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing GetStreamingEventsResponseMessageType
@@ -8,8 +8,8 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: GetStreamingEventsResponseMessageType
  *
- * @method GetStreamingEventsResponseMessageType addNotifications(\garethp\ews\API\Type\NotificationType $notifications)
- * @method \garethp\ews\API\Type\NotificationType[] getNotifications()
+ * @method GetStreamingEventsResponseMessageType addNotifications(\rklandesverband\ews\API\Type\NotificationType $notifications)
+ * @method \rklandesverband\ews\API\Type\NotificationType[] getNotifications()
  * @method GetStreamingEventsResponseMessageType setNotifications(array $notifications)
  * @method GetStreamingEventsResponseMessageType addErrorSubscriptionIds(string $errorSubscriptionIds)
  * @method string[] getErrorSubscriptionIds()
@@ -21,7 +21,7 @@ class GetStreamingEventsResponseMessageType extends ResponseMessageType
 {
 
     /**
-     * @var \garethp\ews\API\Type\NotificationType[]
+     * @var \rklandesverband\ews\API\Type\NotificationType[]
      */
     protected $notifications = null;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing AttachmentResponseShapeType
@@ -40,7 +40,7 @@ class AttachmentResponseShapeType extends Type
     protected $filterHtmlContent = null;
 
     /**
-     * @var \garethp\ews\API\Type\NonEmptyArrayOfPathsToElementType
+     * @var \rklandesverband\ews\API\Type\NonEmptyArrayOfPathsToElementType
      */
     protected $additionalProperties = null;
 }

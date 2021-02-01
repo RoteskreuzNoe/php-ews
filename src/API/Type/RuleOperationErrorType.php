@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing RuleOperationErrorType
@@ -25,7 +25,7 @@ class RuleOperationErrorType extends Type
     protected $operationIndex = null;
 
     /**
-     * @var \garethp\ews\API\Type\RuleValidationErrorType[]
+     * @var \rklandesverband\ews\API\Type\RuleValidationErrorType[]
      */
     protected $validationErrors = null;
 }

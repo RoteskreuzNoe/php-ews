@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\Mail;
+namespace rklandesverband\ews\Mail;
 
-use garethp\ews\MailAPI as BaseMailAPI;
+use rklandesverband\ews\MailAPI as BaseMailAPI;
 
 /**
  * Class MailAPI

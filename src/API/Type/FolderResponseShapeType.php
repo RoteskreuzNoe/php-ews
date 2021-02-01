@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing FolderResponseShapeType
@@ -24,7 +24,7 @@ class FolderResponseShapeType extends Type
     protected $baseShape = null;
 
     /**
-     * @var \garethp\ews\API\Type\NonEmptyArrayOfPathsToElementType
+     * @var \rklandesverband\ews\API\Type\NonEmptyArrayOfPathsToElementType
      */
     protected $additionalProperties = null;
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing NonEmptyArrayOfFolderChangeDescriptionsType
@@ -24,17 +24,17 @@ class NonEmptyArrayOfFolderChangeDescriptionsType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\AppendToFolderFieldType[]
+     * @var \rklandesverband\ews\API\Type\AppendToFolderFieldType[]
      */
     protected $appendToFolderField = null;
 
     /**
-     * @var \garethp\ews\API\Type\SetFolderFieldType[]
+     * @var \rklandesverband\ews\API\Type\SetFolderFieldType[]
      */
     protected $setFolderField = null;
 
     /**
-     * @var \garethp\ews\API\Type\DeleteFolderFieldType[]
+     * @var \rklandesverband\ews\API\Type\DeleteFolderFieldType[]
      */
     protected $deleteFolderField = null;
 }

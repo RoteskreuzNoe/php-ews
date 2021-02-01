@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing ConversationActionType
@@ -44,12 +44,12 @@ class ConversationActionType extends Type
     protected $action = null;
 
     /**
-     * @var \garethp\ews\API\Type\ItemIdType
+     * @var \rklandesverband\ews\API\Type\ItemIdType
      */
     protected $conversationId = null;
 
     /**
-     * @var \garethp\ews\API\Type\TargetFolderIdType
+     * @var \rklandesverband\ews\API\Type\TargetFolderIdType
      */
     protected $contextFolderId = null;
 
@@ -68,7 +68,7 @@ class ConversationActionType extends Type
     protected $processRightAway = null;
 
     /**
-     * @var \garethp\ews\API\Type\TargetFolderIdType
+     * @var \rklandesverband\ews\API\Type\TargetFolderIdType
      */
     protected $destinationFolderId = null;
 

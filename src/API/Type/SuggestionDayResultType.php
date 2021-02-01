@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing SuggestionDayResultType
@@ -36,7 +36,7 @@ class SuggestionDayResultType extends Type
     protected $dayQuality = null;
 
     /**
-     * @var \garethp\ews\API\Type\SuggestionType[]
+     * @var \rklandesverband\ews\API\Type\SuggestionType[]
      */
     protected $suggestionArray = null;
 }

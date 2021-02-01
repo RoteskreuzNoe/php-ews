@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing ArrayOfResolutionType
@@ -54,7 +54,7 @@ class ArrayOfResolutionType extends Type
     protected $totalItemsInView = null;
 
     /**
-     * @var \garethp\ews\API\Type\ResolutionType[]
+     * @var \rklandesverband\ews\API\Type\ResolutionType[]
      */
     protected $resolution = null;
 }

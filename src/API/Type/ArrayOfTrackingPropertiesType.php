@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing ArrayOfTrackingPropertiesType
@@ -18,7 +18,7 @@ class ArrayOfTrackingPropertiesType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\TrackingPropertyType[]
+     * @var \rklandesverband\ews\API\Type\TrackingPropertyType[]
      */
     protected $trackingPropertyType = null;
 }

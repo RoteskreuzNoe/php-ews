@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing FindItemResponseMessageType
@@ -8,14 +8,14 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: FindItemResponseMessageType
  *
- * @method \garethp\ews\API\Type\FindItemParentType getRootFolder()
- * @method FindItemResponseMessageType setRootFolder(\garethp\ews\API\Type\FindItemParentType $rootFolder)
+ * @method \rklandesverband\ews\API\Type\FindItemParentType getRootFolder()
+ * @method FindItemResponseMessageType setRootFolder(\rklandesverband\ews\API\Type\FindItemParentType $rootFolder)
  */
 class FindItemResponseMessageType extends ResponseMessageType
 {
 
     /**
-     * @var \garethp\ews\API\Type\FindItemParentType
+     * @var \rklandesverband\ews\API\Type\FindItemParentType
      */
     protected $rootFolder = null;
 }

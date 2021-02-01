@@ -1,7 +1,7 @@
 <?php
 
 
-namespace garethp\ews\Generator;
+namespace rklandesverband\ews\Generator;
 
 use Zend\Code\Generator\DocBlock\Tag\MethodTag;
 

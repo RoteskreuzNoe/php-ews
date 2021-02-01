@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing CreateItemType
@@ -12,10 +12,10 @@ namespace garethp\ews\API\Message;
  * @method CreateItemType setMessageDisposition(string $messageDisposition)
  * @method string getSendMeetingInvitations()
  * @method CreateItemType setSendMeetingInvitations(string $sendMeetingInvitations)
- * @method \garethp\ews\API\Type\TargetFolderIdType getSavedItemFolderId()
- * @method CreateItemType setSavedItemFolderId(\garethp\ews\API\Type\TargetFolderIdType $savedItemFolderId)
- * @method \garethp\ews\API\Type\NonEmptyArrayOfAllItemsType getItems()
- * @method CreateItemType setItems(\garethp\ews\API\Type\NonEmptyArrayOfAllItemsType $items)
+ * @method \rklandesverband\ews\API\Type\TargetFolderIdType getSavedItemFolderId()
+ * @method CreateItemType setSavedItemFolderId(\rklandesverband\ews\API\Type\TargetFolderIdType $savedItemFolderId)
+ * @method \rklandesverband\ews\API\Type\NonEmptyArrayOfAllItemsType getItems()
+ * @method CreateItemType setItems(\rklandesverband\ews\API\Type\NonEmptyArrayOfAllItemsType $items)
  */
 class CreateItemType extends BaseRequestType
 {
@@ -31,12 +31,12 @@ class CreateItemType extends BaseRequestType
     protected $sendMeetingInvitations = null;
 
     /**
-     * @var \garethp\ews\API\Type\TargetFolderIdType
+     * @var \rklandesverband\ews\API\Type\TargetFolderIdType
      */
     protected $savedItemFolderId = null;
 
     /**
-     * @var \garethp\ews\API\Type\NonEmptyArrayOfAllItemsType
+     * @var \rklandesverband\ews\API\Type\NonEmptyArrayOfAllItemsType
      */
     protected $items = null;
 }

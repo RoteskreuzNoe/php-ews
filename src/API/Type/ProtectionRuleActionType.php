@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing ProtectionRuleActionType
@@ -25,7 +25,7 @@ class ProtectionRuleActionType extends Type
     protected $name = null;
 
     /**
-     * @var \garethp\ews\API\Type\ProtectionRuleArgumentType[]
+     * @var \rklandesverband\ews\API\Type\ProtectionRuleArgumentType[]
      */
     protected $argument = null;
 }

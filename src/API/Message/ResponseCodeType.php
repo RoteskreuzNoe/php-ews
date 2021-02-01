@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
-use garethp\ews\API\Message;
+use rklandesverband\ews\API\Message;
 
 /**
  * Class representing ResponseCodeType

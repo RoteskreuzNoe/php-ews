@@ -4,15 +4,15 @@
  */
 
 
-namespace garethp\ews\API;
+namespace rklandesverband\ews\API;
 
-use garethp\ews\API\Exception\ExchangeException;
-use garethp\ews\API\Exception\NoResponseReturnedException;
-use garethp\ews\API\Exception\ServiceUnavailableException;
-use garethp\ews\API\Exception\UnauthorizedException;
-use garethp\ews\API\ExchangeWebServices\MiddlewareFactory;
-use garethp\ews\API\Message\ResponseMessageType;
-use garethp\ews\API\Type\EmailAddressType;
+use rklandesverband\ews\API\Exception\ExchangeException;
+use rklandesverband\ews\API\Exception\NoResponseReturnedException;
+use rklandesverband\ews\API\Exception\ServiceUnavailableException;
+use rklandesverband\ews\API\Exception\UnauthorizedException;
+use rklandesverband\ews\API\ExchangeWebServices\MiddlewareFactory;
+use rklandesverband\ews\API\Message\ResponseMessageType;
+use rklandesverband\ews\API\Type\EmailAddressType;
 use \Closure;
 
 /**
@@ -305,7 +305,7 @@ class ExchangeWebServices
      * @param $name
      * @param $arguments
      * @return Type
-     * @throws \garethp\ews\API\Exception
+     * @throws \rklandesverband\ews\API\Exception
      */
     public function __call($name, $arguments)
     {
@@ -357,9 +357,9 @@ class ExchangeWebServices
      * Process a response to verify that it succeeded and take the appropriate
      * action
      *
-     * @param \garethp\ews\API\Message\BaseResponseMessageType $response
+     * @param \rklandesverband\ews\API\Message\BaseResponseMessageType $response
      * @return Type[]
-     * @throws \garethp\ews\API\Exception
+     * @throws \rklandesverband\ews\API\Exception
      */
     protected function processResponse($response)
     {
@@ -384,7 +384,7 @@ class ExchangeWebServices
     /**
      * @param $response
      * @return array
-     * @throws \garethp\ews\API\Exception
+     * @throws \rklandesverband\ews\API\Exception
      */
     public static function drillDownResponseLevels($response)
     {

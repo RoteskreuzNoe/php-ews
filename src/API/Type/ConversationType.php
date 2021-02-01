@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing ConversationType
@@ -83,7 +83,7 @@ class ConversationType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\ItemIdType
+     * @var \rklandesverband\ews\API\Type\ItemIdType
      */
     protected $conversationId = null;
 
@@ -218,12 +218,12 @@ class ConversationType extends Type
     protected $globalImportance = null;
 
     /**
-     * @var \garethp\ews\API\Type\NonEmptyArrayOfBaseItemIdsType
+     * @var \rklandesverband\ews\API\Type\NonEmptyArrayOfBaseItemIdsType
      */
     protected $itemIds = null;
 
     /**
-     * @var \garethp\ews\API\Type\NonEmptyArrayOfBaseItemIdsType
+     * @var \rklandesverband\ews\API\Type\NonEmptyArrayOfBaseItemIdsType
      */
     protected $globalItemIds = null;
 }

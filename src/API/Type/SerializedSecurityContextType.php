@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing SerializedSecurityContextType
@@ -30,12 +30,12 @@ class SerializedSecurityContextType extends Type
     protected $userSid = null;
 
     /**
-     * @var \garethp\ews\API\Type\SidAndAttributesType[]
+     * @var \rklandesverband\ews\API\Type\SidAndAttributesType[]
      */
     protected $groupSids = null;
 
     /**
-     * @var \garethp\ews\API\Type\SidAndAttributesType[]
+     * @var \rklandesverband\ews\API\Type\SidAndAttributesType[]
      */
     protected $restrictedGroupSids = null;
 

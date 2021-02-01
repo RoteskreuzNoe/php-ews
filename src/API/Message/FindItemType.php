@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
-use garethp\ews\API\Type\IndexedPageViewType;
+use rklandesverband\ews\API\Type\IndexedPageViewType;
 
 /**
  * Class representing FindItemType
@@ -12,27 +12,27 @@ use garethp\ews\API\Type\IndexedPageViewType;
  *
  * @method string getTraversal()
  * @method FindItemType setTraversal(string $traversal)
- * @method \garethp\ews\API\Type\ItemResponseShapeType getItemShape()
- * @method FindItemType setItemShape(\garethp\ews\API\Type\ItemResponseShapeType $itemShape)
- * @method \garethp\ews\API\Type\IndexedPageViewType getIndexedPageItemView()
- * @method FindItemType setIndexedPageItemView(\garethp\ews\API\Type\IndexedPageViewType $indexedPageItemView)
- * @method \garethp\ews\API\Type\FractionalPageViewType getFractionalPageItemView()
- * @method FindItemType setFractionalPageItemView(\garethp\ews\API\Type\FractionalPageViewType $fractionalPageItemView)
- * @method \garethp\ews\API\Type\CalendarViewType getCalendarView()
- * @method FindItemType setCalendarView(\garethp\ews\API\Type\CalendarViewType $calendarView)
- * @method \garethp\ews\API\Type\ContactsViewType getContactsView()
- * @method FindItemType setContactsView(\garethp\ews\API\Type\ContactsViewType $contactsView)
- * @method \garethp\ews\API\Type\GroupByType getGroupBy()
- * @method FindItemType setGroupBy(\garethp\ews\API\Type\GroupByType $groupBy)
- * @method \garethp\ews\API\Type\DistinguishedGroupByType getDistinguishedGroupBy()
- * @method FindItemType setDistinguishedGroupBy(\garethp\ews\API\Type\DistinguishedGroupByType $distinguishedGroupBy)
- * @method \garethp\ews\API\Type\RestrictionType getRestriction()
- * @method FindItemType setRestriction(\garethp\ews\API\Type\RestrictionType $restriction)
- * @method FindItemType addSortOrder(\garethp\ews\API\Type\FieldOrderType $sortOrder)
- * @method \garethp\ews\API\Type\FieldOrderType[] getSortOrder()
+ * @method \rklandesverband\ews\API\Type\ItemResponseShapeType getItemShape()
+ * @method FindItemType setItemShape(\rklandesverband\ews\API\Type\ItemResponseShapeType $itemShape)
+ * @method \rklandesverband\ews\API\Type\IndexedPageViewType getIndexedPageItemView()
+ * @method FindItemType setIndexedPageItemView(\rklandesverband\ews\API\Type\IndexedPageViewType $indexedPageItemView)
+ * @method \rklandesverband\ews\API\Type\FractionalPageViewType getFractionalPageItemView()
+ * @method FindItemType setFractionalPageItemView(\rklandesverband\ews\API\Type\FractionalPageViewType $fractionalPageItemView)
+ * @method \rklandesverband\ews\API\Type\CalendarViewType getCalendarView()
+ * @method FindItemType setCalendarView(\rklandesverband\ews\API\Type\CalendarViewType $calendarView)
+ * @method \rklandesverband\ews\API\Type\ContactsViewType getContactsView()
+ * @method FindItemType setContactsView(\rklandesverband\ews\API\Type\ContactsViewType $contactsView)
+ * @method \rklandesverband\ews\API\Type\GroupByType getGroupBy()
+ * @method FindItemType setGroupBy(\rklandesverband\ews\API\Type\GroupByType $groupBy)
+ * @method \rklandesverband\ews\API\Type\DistinguishedGroupByType getDistinguishedGroupBy()
+ * @method FindItemType setDistinguishedGroupBy(\rklandesverband\ews\API\Type\DistinguishedGroupByType $distinguishedGroupBy)
+ * @method \rklandesverband\ews\API\Type\RestrictionType getRestriction()
+ * @method FindItemType setRestriction(\rklandesverband\ews\API\Type\RestrictionType $restriction)
+ * @method FindItemType addSortOrder(\rklandesverband\ews\API\Type\FieldOrderType $sortOrder)
+ * @method \rklandesverband\ews\API\Type\FieldOrderType[] getSortOrder()
  * @method FindItemType setSortOrder(array $sortOrder)
- * @method \garethp\ews\API\Type\NonEmptyArrayOfBaseFolderIdsType getParentFolderIds()
- * @method FindItemType setParentFolderIds(\garethp\ews\API\Type\NonEmptyArrayOfBaseFolderIdsType $parentFolderIds)
+ * @method \rklandesverband\ews\API\Type\NonEmptyArrayOfBaseFolderIdsType getParentFolderIds()
+ * @method FindItemType setParentFolderIds(\rklandesverband\ews\API\Type\NonEmptyArrayOfBaseFolderIdsType $parentFolderIds)
  * @method string getQueryString()
  * @method FindItemType setQueryString(string $queryString)
  */
@@ -45,52 +45,52 @@ class FindItemType extends BaseRequestType
     protected $traversal = null;
 
     /**
-     * @var \garethp\ews\API\Type\ItemResponseShapeType
+     * @var \rklandesverband\ews\API\Type\ItemResponseShapeType
      */
     protected $itemShape = null;
 
     /**
-     * @var \garethp\ews\API\Type\IndexedPageViewType
+     * @var \rklandesverband\ews\API\Type\IndexedPageViewType
      */
     protected $indexedPageItemView = null;
 
     /**
-     * @var \garethp\ews\API\Type\FractionalPageViewType
+     * @var \rklandesverband\ews\API\Type\FractionalPageViewType
      */
     protected $fractionalPageItemView = null;
 
     /**
-     * @var \garethp\ews\API\Type\CalendarViewType
+     * @var \rklandesverband\ews\API\Type\CalendarViewType
      */
     protected $calendarView = null;
 
     /**
-     * @var \garethp\ews\API\Type\ContactsViewType
+     * @var \rklandesverband\ews\API\Type\ContactsViewType
      */
     protected $contactsView = null;
 
     /**
-     * @var \garethp\ews\API\Type\GroupByType
+     * @var \rklandesverband\ews\API\Type\GroupByType
      */
     protected $groupBy = null;
 
     /**
-     * @var \garethp\ews\API\Type\DistinguishedGroupByType
+     * @var \rklandesverband\ews\API\Type\DistinguishedGroupByType
      */
     protected $distinguishedGroupBy = null;
 
     /**
-     * @var \garethp\ews\API\Type\RestrictionType
+     * @var \rklandesverband\ews\API\Type\RestrictionType
      */
     protected $restriction = null;
 
     /**
-     * @var \garethp\ews\API\Type\FieldOrderType[]
+     * @var \rklandesverband\ews\API\Type\FieldOrderType[]
      */
     protected $sortOrder = null;
 
     /**
-     * @var \garethp\ews\API\Type\NonEmptyArrayOfBaseFolderIdsType
+     * @var \rklandesverband\ews\API\Type\NonEmptyArrayOfBaseFolderIdsType
      */
     protected $parentFolderIds = null;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing GetSharingMetadataType
@@ -8,8 +8,8 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: GetSharingMetadataType
  *
- * @method \garethp\ews\API\Type\FolderIdType getIdOfFolderToShare()
- * @method GetSharingMetadataType setIdOfFolderToShare(\garethp\ews\API\Type\FolderIdType $idOfFolderToShare)
+ * @method \rklandesverband\ews\API\Type\FolderIdType getIdOfFolderToShare()
+ * @method GetSharingMetadataType setIdOfFolderToShare(\rklandesverband\ews\API\Type\FolderIdType $idOfFolderToShare)
  * @method string getSenderSmtpAddress()
  * @method GetSharingMetadataType setSenderSmtpAddress(string $senderSmtpAddress)
  * @method GetSharingMetadataType addRecipients(string $recipients)
@@ -20,7 +20,7 @@ class GetSharingMetadataType extends BaseRequestType
 {
 
     /**
-     * @var \garethp\ews\API\Type\FolderIdType
+     * @var \rklandesverband\ews\API\Type\FolderIdType
      */
     protected $idOfFolderToShare = null;
 

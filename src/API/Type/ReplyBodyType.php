@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing ReplyBodyType
@@ -10,8 +10,8 @@ use garethp\ews\API\Type;
  *
  * XSD Type: ReplyBody
  *
- * @method \garethp\ews\API\Type\ReplyBodyType\LangAType getLang()
- * @method ReplyBodyType setLang(\garethp\ews\API\Type\ReplyBodyType\LangAType $lang)
+ * @method \rklandesverband\ews\API\Type\ReplyBodyType\LangAType getLang()
+ * @method ReplyBodyType setLang(\rklandesverband\ews\API\Type\ReplyBodyType\LangAType $lang)
  * @method string getMessage()
  * @method ReplyBodyType setMessage(string $message)
  */
@@ -19,7 +19,7 @@ class ReplyBodyType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\ReplyBodyType\LangAType
+     * @var \rklandesverband\ews\API\Type\ReplyBodyType\LangAType
      */
     protected $lang = null;
 

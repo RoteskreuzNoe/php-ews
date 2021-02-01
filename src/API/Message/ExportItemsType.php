@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing ExportItemsType
@@ -8,15 +8,15 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: ExportItemsType
  *
- * @method ExportItemsType addItemIds(\garethp\ews\API\Type\ItemIdType $itemIds)
- * @method \garethp\ews\API\Type\ItemIdType[] getItemIds()
+ * @method ExportItemsType addItemIds(\rklandesverband\ews\API\Type\ItemIdType $itemIds)
+ * @method \rklandesverband\ews\API\Type\ItemIdType[] getItemIds()
  * @method ExportItemsType setItemIds(array $itemIds)
  */
 class ExportItemsType extends BaseRequestType
 {
 
     /**
-     * @var \garethp\ews\API\Type\ItemIdType[]
+     * @var \rklandesverband\ews\API\Type\ItemIdType[]
      */
     protected $itemIds = null;
 }

@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing NonEmptyArrayOfResponseObjectsType
@@ -48,57 +48,57 @@ class NonEmptyArrayOfResponseObjectsType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\AcceptItemType[]
+     * @var \rklandesverband\ews\API\Type\AcceptItemType[]
      */
     protected $acceptItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\TentativelyAcceptItemType[]
+     * @var \rklandesverband\ews\API\Type\TentativelyAcceptItemType[]
      */
     protected $tentativelyAcceptItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\DeclineItemType[]
+     * @var \rklandesverband\ews\API\Type\DeclineItemType[]
      */
     protected $declineItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\ReplyToItemType[]
+     * @var \rklandesverband\ews\API\Type\ReplyToItemType[]
      */
     protected $replyToItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\ForwardItemType[]
+     * @var \rklandesverband\ews\API\Type\ForwardItemType[]
      */
     protected $forwardItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\ReplyAllToItemType[]
+     * @var \rklandesverband\ews\API\Type\ReplyAllToItemType[]
      */
     protected $replyAllToItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\CancelCalendarItemType[]
+     * @var \rklandesverband\ews\API\Type\CancelCalendarItemType[]
      */
     protected $cancelCalendarItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\RemoveItemType[]
+     * @var \rklandesverband\ews\API\Type\RemoveItemType[]
      */
     protected $removeItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\SuppressReadReceiptType[]
+     * @var \rklandesverband\ews\API\Type\SuppressReadReceiptType[]
      */
     protected $suppressReadReceipt = null;
 
     /**
-     * @var \garethp\ews\API\Type\PostReplyItemType[]
+     * @var \rklandesverband\ews\API\Type\PostReplyItemType[]
      */
     protected $postReplyItem = null;
 
     /**
-     * @var \garethp\ews\API\Type\AcceptSharingInvitationType[]
+     * @var \rklandesverband\ews\API\Type\AcceptSharingInvitationType[]
      */
     protected $acceptSharingInvitation = null;
 }

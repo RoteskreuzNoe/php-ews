@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
-use garethp\ews\API\Message;
+use rklandesverband\ews\API\Message;
 
 /**
  * Class representing SuggestionsResponseType
@@ -12,20 +12,20 @@ use garethp\ews\API\Message;
  *
  * @method ResponseMessageType getResponseMessage()
  * @method SuggestionsResponseType setResponseMessage(ResponseMessageType $responseMessage)
- * @method SuggestionsResponseType addSuggestionDayResultArray(\garethp\ews\API\Type\SuggestionDayResultType $suggestionDayResultArray)
- * @method \garethp\ews\API\Type\SuggestionDayResultType[] getSuggestionDayResultArray()
+ * @method SuggestionsResponseType addSuggestionDayResultArray(\rklandesverband\ews\API\Type\SuggestionDayResultType $suggestionDayResultArray)
+ * @method \rklandesverband\ews\API\Type\SuggestionDayResultType[] getSuggestionDayResultArray()
  * @method SuggestionsResponseType setSuggestionDayResultArray(array $suggestionDayResultArray)
  */
 class SuggestionsResponseType extends Message
 {
 
     /**
-     * @var \garethp\ews\API\Message\ResponseMessageType
+     * @var \rklandesverband\ews\API\Message\ResponseMessageType
      */
     protected $responseMessage = null;
 
     /**
-     * @var \garethp\ews\API\Type\SuggestionDayResultType[]
+     * @var \rklandesverband\ews\API\Type\SuggestionDayResultType[]
      */
     protected $suggestionDayResultArray = null;
 }

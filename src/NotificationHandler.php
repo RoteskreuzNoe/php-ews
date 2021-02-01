@@ -1,13 +1,13 @@
 <?php
 
-namespace garethp\ews;
+namespace rklandesverband\ews;
 
-use garethp\ews\API\Enumeration\SubscriptionStatusType;
-use garethp\ews\API\Exception;
-use garethp\ews\API\ExchangeWebServices;
-use garethp\ews\API\Message\SendNotificationResponseMessageType;
-use garethp\ews\API\Message\SendNotificationResponseType;
-use garethp\ews\API\Message\SendNotificationResultType;
+use rklandesverband\ews\API\Enumeration\SubscriptionStatusType;
+use rklandesverband\ews\API\Exception;
+use rklandesverband\ews\API\ExchangeWebServices;
+use rklandesverband\ews\API\Message\SendNotificationResponseMessageType;
+use rklandesverband\ews\API\Message\SendNotificationResponseType;
+use rklandesverband\ews\API\Message\SendNotificationResultType;
 
 class NotificationHandler
 {

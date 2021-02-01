@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\Utilities;
+namespace rklandesverband\ews\Utilities;
 
 function cloneValue($value)
 {

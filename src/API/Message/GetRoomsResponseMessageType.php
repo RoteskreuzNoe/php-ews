@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing GetRoomsResponseMessageType
@@ -8,15 +8,15 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: GetRoomsResponseMessageType
  *
- * @method GetRoomsResponseMessageType addRooms(\garethp\ews\API\Type\RoomType $rooms)
- * @method \garethp\ews\API\Type\RoomType[] getRooms()
+ * @method GetRoomsResponseMessageType addRooms(\rklandesverband\ews\API\Type\RoomType $rooms)
+ * @method \rklandesverband\ews\API\Type\RoomType[] getRooms()
  * @method GetRoomsResponseMessageType setRooms(array $rooms)
  */
 class GetRoomsResponseMessageType extends ResponseMessageType
 {
 
     /**
-     * @var \garethp\ews\API\Type\RoomType[]
+     * @var \rklandesverband\ews\API\Type\RoomType[]
      */
     protected $rooms = null;
 }

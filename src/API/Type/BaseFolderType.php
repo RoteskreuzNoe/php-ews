@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing BaseFolderType
@@ -34,12 +34,12 @@ class BaseFolderType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\FolderIdType
+     * @var \rklandesverband\ews\API\Type\FolderIdType
      */
     protected $folderId = null;
 
     /**
-     * @var \garethp\ews\API\Type\FolderIdType
+     * @var \rklandesverband\ews\API\Type\FolderIdType
      */
     protected $parentFolderId = null;
 
@@ -64,17 +64,17 @@ class BaseFolderType extends Type
     protected $childFolderCount = null;
 
     /**
-     * @var \garethp\ews\API\Type\ExtendedPropertyType[]
+     * @var \rklandesverband\ews\API\Type\ExtendedPropertyType[]
      */
     protected $extendedProperty = null;
 
     /**
-     * @var \garethp\ews\API\Type\ManagedFolderInformationType
+     * @var \rklandesverband\ews\API\Type\ManagedFolderInformationType
      */
     protected $managedFolderInformation = null;
 
     /**
-     * @var \garethp\ews\API\Type\EffectiveRightsType
+     * @var \rklandesverband\ews\API\Type\EffectiveRightsType
      */
     protected $effectiveRights = null;
 }

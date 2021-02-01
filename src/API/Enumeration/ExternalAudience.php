@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\ExternalAudience.
+ * Contains \rklandesverband\ews\API\Enumeration\ExternalAudience.
  */
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
 /**
  * Identifies to whom external Out of Office (OOF) messages are sent..

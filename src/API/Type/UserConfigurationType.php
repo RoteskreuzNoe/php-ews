@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing UserConfigurationType
@@ -26,17 +26,17 @@ class UserConfigurationType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\UserConfigurationNameType
+     * @var \rklandesverband\ews\API\Type\UserConfigurationNameType
      */
     protected $userConfigurationName = null;
 
     /**
-     * @var \garethp\ews\API\Type\ItemIdType
+     * @var \rklandesverband\ews\API\Type\ItemIdType
      */
     protected $itemId = null;
 
     /**
-     * @var \garethp\ews\API\Type\UserConfigurationDictionaryEntryType[]
+     * @var \rklandesverband\ews\API\Type\UserConfigurationDictionaryEntryType[]
      */
     protected $dictionary = null;
 

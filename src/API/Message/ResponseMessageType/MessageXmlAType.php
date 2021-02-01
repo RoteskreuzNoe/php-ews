@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Message\ResponseMessageType;
+namespace rklandesverband\ews\API\Message\ResponseMessageType;
 
-use garethp\ews\API\Message\ResponseMessageType;
+use rklandesverband\ews\API\Message\ResponseMessageType;
 
 /**
  * Class representing MessageXmlAType

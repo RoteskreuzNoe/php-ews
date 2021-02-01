@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Enumeration\IndexBasePointType;
+use rklandesverband\ews\API\Enumeration\IndexBasePointType;
 
 /**
  * Class representing IndexedPageViewType

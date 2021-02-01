@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing TimeChangeType
@@ -35,7 +35,7 @@ class TimeChangeType extends Type
     protected $offset = null;
 
     /**
-     * @var \garethp\ews\API\Type\RelativeYearlyRecurrencePatternType
+     * @var \rklandesverband\ews\API\Type\RelativeYearlyRecurrencePatternType
      */
     protected $relativeYearlyRecurrence = null;
 

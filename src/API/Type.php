@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \garethp\ews\API\Type.
+ * Contains \rklandesverband\ews\API\Type.
  */
 
-namespace garethp\ews\API;
+namespace rklandesverband\ews\API;
 
 /**
  * Base class for Exchange Web Service Types.
@@ -149,7 +149,7 @@ class Type
     {
         // Iterate over all properties on the current object.
         foreach (get_object_vars($this) as $property => $value) {
-            $this->$property = \garethp\ews\Utilities\cloneValue($value);
+            $this->$property = \rklandesverband\ews\Utilities\cloneValue($value);
         }
     }
 

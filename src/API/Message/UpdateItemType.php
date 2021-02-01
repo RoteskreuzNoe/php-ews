@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing UpdateItemType
@@ -14,10 +14,10 @@ namespace garethp\ews\API\Message;
  * @method UpdateItemType setMessageDisposition(string $messageDisposition)
  * @method string getSendMeetingInvitationsOrCancellations()
  * @method UpdateItemType setSendMeetingInvitationsOrCancellations(string $sendMeetingInvitationsOrCancellations)
- * @method \garethp\ews\API\Type\TargetFolderIdType getSavedItemFolderId()
- * @method UpdateItemType setSavedItemFolderId(\garethp\ews\API\Type\TargetFolderIdType $savedItemFolderId)
- * @method UpdateItemType addItemChanges(\garethp\ews\API\Type\ItemChangeType $itemChanges)
- * @method \garethp\ews\API\Type\ItemChangeType[] getItemChanges()
+ * @method \rklandesverband\ews\API\Type\TargetFolderIdType getSavedItemFolderId()
+ * @method UpdateItemType setSavedItemFolderId(\rklandesverband\ews\API\Type\TargetFolderIdType $savedItemFolderId)
+ * @method UpdateItemType addItemChanges(\rklandesverband\ews\API\Type\ItemChangeType $itemChanges)
+ * @method \rklandesverband\ews\API\Type\ItemChangeType[] getItemChanges()
  * @method UpdateItemType setItemChanges(array $itemChanges)
  */
 class UpdateItemType extends BaseRequestType
@@ -39,12 +39,12 @@ class UpdateItemType extends BaseRequestType
     protected $sendMeetingInvitationsOrCancellations = null;
 
     /**
-     * @var \garethp\ews\API\Type\TargetFolderIdType
+     * @var \rklandesverband\ews\API\Type\TargetFolderIdType
      */
     protected $savedItemFolderId = null;
 
     /**
-     * @var \garethp\ews\API\Type\ItemChangeType[]
+     * @var \rklandesverband\ews\API\Type\ItemChangeType[]
      */
     protected $itemChanges = null;
 }

@@ -1,9 +1,9 @@
 <?php
 
-namespace garethp\ews;
+namespace rklandesverband\ews;
 
-use garethp\ews\API\Exception;
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Exception;
+use rklandesverband\ews\API\Type;
 
 class ContactsAPI extends API
 {

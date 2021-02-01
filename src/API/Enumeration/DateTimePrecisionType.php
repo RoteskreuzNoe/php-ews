@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\DateTimePrecisionType.
+ * Contains \rklandesverband\ews\API\Enumeration\DateTimePrecisionType.
  */
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
 /**
  * Specifies the precision for returned date/time values.

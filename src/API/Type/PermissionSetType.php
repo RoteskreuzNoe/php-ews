@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing PermissionSetType
@@ -21,7 +21,7 @@ class PermissionSetType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\PermissionType[]
+     * @var \rklandesverband\ews\API\Type\PermissionType[]
      */
     protected $permissions = null;
 

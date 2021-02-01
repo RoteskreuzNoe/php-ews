@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing GetRoomsType
@@ -8,14 +8,14 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: GetRoomsType
  *
- * @method \garethp\ews\API\Type\EmailAddressType getRoomList()
- * @method GetRoomsType setRoomList(\garethp\ews\API\Type\EmailAddressType $roomList)
+ * @method \rklandesverband\ews\API\Type\EmailAddressType getRoomList()
+ * @method GetRoomsType setRoomList(\rklandesverband\ews\API\Type\EmailAddressType $roomList)
  */
 class GetRoomsType extends BaseRequestType
 {
 
     /**
-     * @var \garethp\ews\API\Type\EmailAddressType
+     * @var \rklandesverband\ews\API\Type\EmailAddressType
      */
     protected $roomList = null;
 }

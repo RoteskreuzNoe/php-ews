@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing ArrayOfTransitionsType
@@ -34,22 +34,22 @@ class ArrayOfTransitionsType extends Type
     protected $id = null;
 
     /**
-     * @var \garethp\ews\API\Type\AbsoluteDateTransition[]
+     * @var \rklandesverband\ews\API\Type\AbsoluteDateTransition[]
      */
     protected $absoluteDateTransition = null;
 
     /**
-     * @var \garethp\ews\API\Type\RecurringDayTransition[]
+     * @var \rklandesverband\ews\API\Type\RecurringDayTransition[]
      */
     protected $recurringDayTransition = null;
 
     /**
-     * @var \garethp\ews\API\Type\RecurringDateTransition[]
+     * @var \rklandesverband\ews\API\Type\RecurringDateTransition[]
      */
     protected $recurringDateTransition = null;
 
     /**
-     * @var \garethp\ews\API\Type\Transition[]
+     * @var \rklandesverband\ews\API\Type\Transition[]
      */
     protected $transition = null;
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing GetServerTimeZonesResponseMessageType
@@ -8,15 +8,15 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: GetServerTimeZonesResponseMessageType
  *
- * @method GetServerTimeZonesResponseMessageType addTimeZoneDefinitions(\garethp\ews\API\Type\TimeZoneDefinitionType $timeZoneDefinitions)
- * @method \garethp\ews\API\Type\TimeZoneDefinitionType[] getTimeZoneDefinitions()
+ * @method GetServerTimeZonesResponseMessageType addTimeZoneDefinitions(\rklandesverband\ews\API\Type\TimeZoneDefinitionType $timeZoneDefinitions)
+ * @method \rklandesverband\ews\API\Type\TimeZoneDefinitionType[] getTimeZoneDefinitions()
  * @method GetServerTimeZonesResponseMessageType setTimeZoneDefinitions(array $timeZoneDefinitions)
  */
 class GetServerTimeZonesResponseMessageType extends ResponseMessageType
 {
 
     /**
-     * @var \garethp\ews\API\Type\TimeZoneDefinitionType[]
+     * @var \rklandesverband\ews\API\Type\TimeZoneDefinitionType[]
      */
     protected $timeZoneDefinitions = null;
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing UpdateItemResponseMessageType
@@ -8,14 +8,14 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: UpdateItemResponseMessageType
  *
- * @method \garethp\ews\API\Type\ConflictResultsType getConflictResults()
- * @method UpdateItemResponseMessageType setConflictResults(\garethp\ews\API\Type\ConflictResultsType $conflictResults)
+ * @method \rklandesverband\ews\API\Type\ConflictResultsType getConflictResults()
+ * @method UpdateItemResponseMessageType setConflictResults(\rklandesverband\ews\API\Type\ConflictResultsType $conflictResults)
  */
 class UpdateItemResponseMessageType extends ItemInfoResponseMessageType
 {
 
     /**
-     * @var \garethp\ews\API\Type\ConflictResultsType
+     * @var \rklandesverband\ews\API\Type\ConflictResultsType
      */
     protected $conflictResults = null;
 }

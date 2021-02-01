@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API;
+namespace rklandesverband\ews\API;
 
-use garethp\ews\API\Type\ExchangeImpersonation;
+use rklandesverband\ews\API\Type\ExchangeImpersonation;
 use SoapClient;
 use SoapHeader;
 use garethp\HttpPlayback\Factory;

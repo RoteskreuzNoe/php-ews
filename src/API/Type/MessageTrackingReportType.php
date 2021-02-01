@@ -1,8 +1,8 @@
 <?php
 
-namespace garethp\ews\API\Type;
+namespace rklandesverband\ews\API\Type;
 
-use garethp\ews\API\Type;
+use rklandesverband\ews\API\Type;
 
 /**
  * Class representing MessageTrackingReportType
@@ -32,12 +32,12 @@ class MessageTrackingReportType extends Type
 {
 
     /**
-     * @var \garethp\ews\API\Type\EmailAddressType
+     * @var \rklandesverband\ews\API\Type\EmailAddressType
      */
     protected $sender = null;
 
     /**
-     * @var \garethp\ews\API\Type\EmailAddressType
+     * @var \rklandesverband\ews\API\Type\EmailAddressType
      */
     protected $purportedSender = null;
 
@@ -56,17 +56,17 @@ class MessageTrackingReportType extends Type
     );
 
     /**
-     * @var \garethp\ews\API\Type\EmailAddressType[]
+     * @var \rklandesverband\ews\API\Type\EmailAddressType[]
      */
     protected $originalRecipients = null;
 
     /**
-     * @var \garethp\ews\API\Type\RecipientTrackingEventType[]
+     * @var \rklandesverband\ews\API\Type\RecipientTrackingEventType[]
      */
     protected $recipientTrackingEvents = null;
 
     /**
-     * @var \garethp\ews\API\Type\TrackingPropertyType[]
+     * @var \rklandesverband\ews\API\Type\TrackingPropertyType[]
      */
     protected $properties = null;
 }

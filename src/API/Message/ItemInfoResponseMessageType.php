@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing ItemInfoResponseMessageType
@@ -8,14 +8,14 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: ItemInfoResponseMessageType
  *
- * @method \garethp\ews\API\Type\ArrayOfRealItemsType getItems()
- * @method ItemInfoResponseMessageType setItems(\garethp\ews\API\Type\ArrayOfRealItemsType $items)
+ * @method \rklandesverband\ews\API\Type\ArrayOfRealItemsType getItems()
+ * @method ItemInfoResponseMessageType setItems(\rklandesverband\ews\API\Type\ArrayOfRealItemsType $items)
  */
 class ItemInfoResponseMessageType extends ResponseMessageType
 {
 
     /**
-     * @var \garethp\ews\API\Type\ArrayOfRealItemsType
+     * @var \rklandesverband\ews\API\Type\ArrayOfRealItemsType
      */
     protected $items = null;
 }

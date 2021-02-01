@@ -6,9 +6,9 @@
  * Time: 15:51
  */
 
-namespace garethp\ews\Generator;
+namespace rklandesverband\ews\Generator;
 
-use garethp\ews\API\Enumeration;
+use rklandesverband\ews\API\Enumeration;
 use Goetas\Xsd\XsdToPhp\Php\Structure\PHPClassOf;
 use phpDocumentor\Reflection\DocBlock\Tag\VarTag;
 use Zend\Code\Generator;

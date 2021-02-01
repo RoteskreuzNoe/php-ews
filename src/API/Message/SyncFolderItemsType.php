@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing SyncFolderItemsType
@@ -8,14 +8,14 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: SyncFolderItemsType
  *
- * @method \garethp\ews\API\Type\ItemResponseShapeType getItemShape()
- * @method SyncFolderItemsType setItemShape(\garethp\ews\API\Type\ItemResponseShapeType $itemShape)
- * @method \garethp\ews\API\Type\TargetFolderIdType getSyncFolderId()
- * @method SyncFolderItemsType setSyncFolderId(\garethp\ews\API\Type\TargetFolderIdType $syncFolderId)
+ * @method \rklandesverband\ews\API\Type\ItemResponseShapeType getItemShape()
+ * @method SyncFolderItemsType setItemShape(\rklandesverband\ews\API\Type\ItemResponseShapeType $itemShape)
+ * @method \rklandesverband\ews\API\Type\TargetFolderIdType getSyncFolderId()
+ * @method SyncFolderItemsType setSyncFolderId(\rklandesverband\ews\API\Type\TargetFolderIdType $syncFolderId)
  * @method string getSyncState()
  * @method SyncFolderItemsType setSyncState(string $syncState)
- * @method SyncFolderItemsType addIgnore(\garethp\ews\API\Type\ItemIdType $ignore)
- * @method \garethp\ews\API\Type\ItemIdType[] getIgnore()
+ * @method SyncFolderItemsType addIgnore(\rklandesverband\ews\API\Type\ItemIdType $ignore)
+ * @method \rklandesverband\ews\API\Type\ItemIdType[] getIgnore()
  * @method SyncFolderItemsType setIgnore(array $ignore)
  * @method integer getMaxChangesReturned()
  * @method SyncFolderItemsType setMaxChangesReturned(integer $maxChangesReturned)
@@ -26,12 +26,12 @@ class SyncFolderItemsType extends BaseRequestType
 {
 
     /**
-     * @var \garethp\ews\API\Type\ItemResponseShapeType
+     * @var \rklandesverband\ews\API\Type\ItemResponseShapeType
      */
     protected $itemShape = null;
 
     /**
-     * @var \garethp\ews\API\Type\TargetFolderIdType
+     * @var \rklandesverband\ews\API\Type\TargetFolderIdType
      */
     protected $syncFolderId = null;
 
@@ -41,7 +41,7 @@ class SyncFolderItemsType extends BaseRequestType
     protected $syncState = null;
 
     /**
-     * @var \garethp\ews\API\Type\ItemIdType[]
+     * @var \rklandesverband\ews\API\Type\ItemIdType[]
      */
     protected $ignore = null;
 

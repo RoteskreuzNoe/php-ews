@@ -1,6 +1,6 @@
 <?php
 
-namespace garethp\ews\API\Message;
+namespace rklandesverband\ews\API\Message;
 
 /**
  * Class representing UpdateUserConfigurationType
@@ -8,14 +8,14 @@ namespace garethp\ews\API\Message;
  *
  * XSD Type: UpdateUserConfigurationType
  *
- * @method \garethp\ews\API\Type\UserConfigurationType getUserConfiguration()
- * @method UpdateUserConfigurationType setUserConfiguration(\garethp\ews\API\Type\UserConfigurationType $userConfiguration)
+ * @method \rklandesverband\ews\API\Type\UserConfigurationType getUserConfiguration()
+ * @method UpdateUserConfigurationType setUserConfiguration(\rklandesverband\ews\API\Type\UserConfigurationType $userConfiguration)
  */
 class UpdateUserConfigurationType extends BaseRequestType
 {
 
     /**
-     * @var \garethp\ews\API\Type\UserConfigurationType
+     * @var \rklandesverband\ews\API\Type\UserConfigurationType
      */
     protected $userConfiguration = null;
 }

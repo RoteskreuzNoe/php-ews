@@ -1,14 +1,14 @@
 <?php
 
-namespace garethp\ews\Calendar;
+namespace rklandesverband\ews\Calendar;
 
-use garethp\ews\CalendarAPI as BaseCalendarAPI;
+use rklandesverband\ews\CalendarAPI as BaseCalendarAPI;
 
 /**
  * Class CalendarAPI
- * @package garethp\ews\Calendar
+ * @package rklandesverband\ews\Calendar
  *
- * @deprecated To be removed in 0.10. Use garethp\ews\CalendarAPI
+ * @deprecated To be removed in 0.10. Use rklandesverband\ews\CalendarAPI
  */
 class CalendarAPI extends BaseCalendarAPI
 {

@@ -1,9 +1,9 @@
 <?php
 /**
- * Contains \garethp\ews\API\Enumeration\SuggestionQuality.
+ * Contains \rklandesverband\ews\API\Enumeration\SuggestionQuality.
  */
 
-namespace garethp\ews\API\Enumeration;
+namespace rklandesverband\ews\API\Enumeration;
 
 /**
  * Represents the quality of the day for containing quality suggested meeting

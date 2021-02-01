@@ -9,9 +9,20 @@
 		"ext-dom": "*",
 		"ext-simplexml": "*"
 	},
+	"scripts": {
+		"cs": "./vendor/bin/phpcs --standard=ruleset.xml -np src/ tests/ examples/",
+		"cbf": "./vendor/bin/phpcbf --standard=ruleset.xml -np src/ tests/ examples/",
+		"generate": "php bin/generateModels.php && composer cbf"
+	},
 	"autoload": {
 		"psr-4": {
 			"rklandesverband\\ews\\": "src/"
-		}
+		},
+		"files": [
+			"src/Utilities/ensureIsArray.php",
+			"src/Utilities/ensureIsDateTime.php",
+			"src/Utilities/cloneValue.php",
+			"src/Utilities/getFolderIds.php"
+		]
 	}
 }

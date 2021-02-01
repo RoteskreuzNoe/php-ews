@@ -1,5 +1,5 @@
 {
-	"name": "RoteskreuzNoe/php-ews",
+	"name": "rklandesverband/php-ews",
 	"license": "BSD-3-Clause",
 	"require": {
 		"garethp/http-playback": "^1.0",
@@ -16,8 +16,8 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"RoteskreuzNoe\\ews\\": "src/",
-			"RoteskreuzNoe\\ews\\Test\\": "tests/src"
+			"rklandesverband\\ews\\": "src/",
+			"rklandesverband\\ews\\Test\\": "tests/src"
 		},
 		"files": [
 			"src/Utilities/ensureIsArray.php",

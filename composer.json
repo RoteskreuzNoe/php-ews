@@ -32,5 +32,11 @@
 		"mockery/mockery": "~0.9.4",
 		"goetas/xsd2php": "2.*@dev",
 		"goetas/xsd-reader": "2.*@dev"
-	}
+	},
+	 "repositories": {
+      "asset": {
+        "type": "composer",
+        "url": "https://asset-packagist.org"
+    }
+  }
 }

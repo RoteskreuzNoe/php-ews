@@ -1,23 +1,17 @@
 {
 	"name": "rklandesverband/php-ews",
+	"description":  "Library for communicating with Exchange Web Services.",
 	"license": "BSD-3-Clause",
 	"require": {
-		"garethp/http-playback": "^1.0",
 		"ext-curl": "*",
 		"ext-soap": "*",
 		"ext-libxml": "*",
 		"ext-dom": "*",
 		"ext-simplexml": "*"
 	},
-	"scripts": {
-		"cs": "./vendor/bin/phpcs --standard=ruleset.xml -np src/ tests/ examples/",
-		"cbf": "./vendor/bin/phpcbf --standard=ruleset.xml -np src/ tests/ examples/",
-		"generate": "php bin/generateModels.php && composer cbf"
-	},
 	"autoload": {
 		"psr-4": {
 			"rklandesverband\\ews\\": "src/",
-			"rklandesverband\\ews\\Test\\": "tests/src"
 		},
 		"files": [
 			"src/Utilities/ensureIsArray.php",
@@ -25,18 +19,5 @@
 			"src/Utilities/cloneValue.php",
 			"src/Utilities/getFolderIds.php"
 		]
-	},
-	"require-dev": {
-		"phpunit/phpunit": "~4.8|~5.2",
-		"squizlabs/php_codesniffer": "~2.3",
-		"mockery/mockery": "~0.9.4",
-		"goetas/xsd2php": "2.*@dev",
-		"goetas/xsd-reader": "2.*@dev"
-	},
-	 "repositories": {
-      "asset": {
-        "type": "composer",
-        "url": "https://asset-packagist.org"
-    }
-  }
+	}
 }

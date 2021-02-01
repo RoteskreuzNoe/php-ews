@@ -1,5 +1,5 @@
 {
-	"name": "garethp/php-ews",
+	"name": "RoteskreuzNoe/php-ews",
 	"license": "BSD-3-Clause",
 	"require": {
 		"garethp/http-playback": "^1.0",
@@ -16,8 +16,8 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"garethp\\ews\\": "src/",
-			"garethp\\ews\\Test\\": "tests/src"
+			"RoteskreuzNoe\\ews\\": "src/",
+			"RoteskreuzNoe\\ews\\Test\\": "tests/src"
 		},
 		"files": [
 			"src/Utilities/ensureIsArray.php",

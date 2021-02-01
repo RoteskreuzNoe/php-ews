@@ -171,7 +171,6 @@ class NTLMSoapClient extends SoapClient
         }
 
         $this->httpClient = Factory::getInstance($options['httpPlayback']);
-
         parent::__construct($wsdl, $options);
     }
 

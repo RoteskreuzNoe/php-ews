@@ -101,6 +101,8 @@ class ExchangeWebServices
 
     const VERSION_2016 = 'Exchange2016';
 
+    const VERSION_2019 = 'Exchange2019';
+
     /**
      * Password to use when connecting to the Exchange server.
      *
@@ -281,7 +283,7 @@ class ExchangeWebServices
         $this->soap = new NTLMSoapClient(
             $location,
             $auth,
-            dirname(__FILE__) . '/../../Resources/wsdl/services.wsdl',
+            dirname(__FILE__) . '/../../../../../EWS/Services.wsdl',
             $options
         );
         libxml_disable_entity_loader($backup);
